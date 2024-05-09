@@ -1,3 +1,26 @@
+0 FILE HackSPi_M4.ldr
+0 HackSPi Clione M4
+0 Name: HackSPi_M4.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2024
+0 !LICENSE see PUBLISH_COPYRIGHT
+0 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 1
+1 0 0 -21.242 -51.534 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 EpsilonSpikerConcept_FrontChassis.ldr
+1 0 0 19.971 9.963 1 0 0 0 1 0 0 0 1 HackSPi_M2_RearChassis.ldr
+1 0 80 49.468 -37.392 -1 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 EpsilonSpikerConcept_RearChassisApillarJoint.ldr
+1 0 -80 49.468 -37.392 -1 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 EpsilonSpikerConcept_RearChassisApillarJoint.ldr
+1 0 0 -170 250 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_Cpillar_GroundCamera.ldr
+1 0 -80 10 230 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_RightRearChassisCpillarJoint.ldr
+1 0 -140 -150 190 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_RightApillarCpillarJoint.ldr
+1 0 80 10 230 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_LeftRearChassisCpillarJoint.ldr
+1 0 140 -150 190 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_LeftApillarCpillarJoint.ldr
+0 STEP
+0 ROTSTEP 0 0 0 ABS
+0 
+0 NOFILE
+0
 0 FILE HackSPi_M2.ldr
 0 HackSPi M2
 0 Name: HackSPi_M2.ldr
