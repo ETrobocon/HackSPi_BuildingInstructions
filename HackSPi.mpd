@@ -84,13 +84,6 @@
 0 Preliminary Model, ET robocon 2024
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 71 0 0 0 1 0 0 0 0 1 0 -1 0 60485.dat
-1 14 -80 0 0 1 0 0 0 -1 0 0 0 -1 32014.dat
-1 14 80 0 0 1 0 0 0 -1 0 0 0 -1 32014.dat
-0 STEP
-1 19 -80 0 30 0 0 1 0 1 0 -1 0 0 3749.dat
-1 19 80 0 30 0 0 1 0 1 0 -1 0 0 3749.dat
-0 STEP
 1 322 0 0 -100 1 0 0 0 1 0 0 0 1 39790.dat
 0 STEP
 1 0 -90 0 -60 -1 0 0 0 -1 0 0 0 1 6628.dat
@@ -99,12 +92,9 @@
 1 71 -100 -20 0 1 0 0 0 -1 0 0 0 -1 EpsilonSpikerConcept_RasPiSupport.ldr
 1 71 100 -20 0 1 0 0 0 -1 0 0 0 -1 EpsilonSpikerConcept_RasPiSupport.ldr
 0 STEP
-1 71 -40 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
-1 71 40 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
-1 19 20 10 40 0 0 1 1 0 0 0 1 0 3749.dat
+1 71 -80 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
+1 71 80 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
 0 ROTSTEP -157 -45 0 ABS
-1 26 20 20 40 1 0 0 0 0 1 0 -1 0 49283.dat
-0 STEP
 1 0 110 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
 1 0 -110 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
 1 0 100 -40 40 -1 0 0 0 0 -1 0 -1 0 EpsilonSpikerConcept_RightRoof.ldr
@@ -1660,9 +1650,9 @@
 0 Name: HackSPi_M2_BumperSpacer_Arrow.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Official Model, ET Robocon 2022
+0 // CALLOUT 1
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-0 // CALLOUT 1
 1 322 0 0 0 1 0 0 0 1 0 0 0 1 60483.dat
 1 4 0 -10 0 0 -1 0 1 0 0 0 0 1 32062.dat
 0 BUFEXCHG A STORE
@@ -1691,10 +1681,10 @@
 0 Name: HackSPi_M2_Apillar_Arrow.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Preliminary Model, ET robocon 2022
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
 0 // 1
 0 !LPUB MULTI_STEP BEGIN
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 1 71 0 0 0 1 0 0 0 0 1 0 -1 0 60485.dat
 0 BUFEXCHG A STORE
 0 !LPUB CALLOUT BEGIN
@@ -1973,9 +1963,9 @@
 0 Name: HackSPi_M2_BatterySupport_Arrow.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Official Model, ET Robocon 2022
+0 // CALLOUT 1
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-0 // CALLOUT 1
 1 14 0 0 60 -1 0 0 0 -1 0 0 0 1 32014.dat
 0 BUFEXCHG A STORE
 0 GHOST 1 19 0 0 -40 0 0 -1 0 1 0 1 0 0 3749.dat
@@ -2004,9 +1994,9 @@
 0 Name: HackSPi_M2_MagentaCableClip.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Official Model, ET Robocon 2022
+0 // CALLOUT
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-0 // CALLOUT
 1 19 0 0 0 0 0 1 1 0 0 0 1 0 3749.dat
 1 26 0 10 0 1 0 0 0 0 1 0 -1 0 49283.dat
 0 STEP
@@ -2018,9 +2008,9 @@
 0 Name: EpsilonSpikerConcept_Roof_Arrow.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Official Model, ET Robocon 2022
+0 // 1
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-0 // 1
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 32192.dat
 0 BUFEXCHG A STORE
 0 GHOST 1 15 -80 0 0 1 0 0 0 1 0 0 0 1 32192.dat
@@ -5197,5 +5187,6 @@
 0 !LPUB MULTI_STEP END
 0 
 0 NOFILE
+0 
 0
 0
