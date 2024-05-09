@@ -1,13 +1,15 @@
 # HackSPi submodel structure
+## Warning: an unofficial LDraw parts #46372 is required.
 
 ## HackSPi_M4
+HackSPi Clione (EpsilonPredator) ETR50EPM4
 - **HackSPi_M4_FrontChassis**
     - EpsilonSpikerConcept_ArmMotor
         - EpsilonSpikerConcept_LightSensor
     - **HackSPi_M4_Apillar**
         - EpsilonSpikerConcept_RasPiSupport
-        - EpsilonSpikerConcept_LeftRoof
-        - EpsilonSpikerConcept_RightRoof
+        - **HackSPi_M4_LeftRoof**
+        - **HackSPi_M4_RightRoof**
     - EpsilonSpikerConcept_FrontChassisJoint
     - **HackSPi_M4_SpikeHub**
     - EpsilonSpikerConcept_Wheel
@@ -26,6 +28,7 @@
 
 
 ## HackSPi_M2
+HackSPi (EpsilonSpiker) ETR50ESM2
 - EpsilonSpikerConcept_FrontChassis
     - EpsilonSpikerConcept_ArmMotor
         - EpsilonSpikerConcept_LightSensor
@@ -51,6 +54,7 @@
 
 
 ## HackSPi_M2_Arrow
+HackSPi (EpsilonSpiker) ETR50ESM2
 - **HackSPi_M2_FrontChassis_Arrow**
     - **HackSPi_M2_ArmMotor_Arrow**
         - **EpsilonSpikerConcept_LightSensor_Arrow**
@@ -77,6 +81,7 @@
 - **EpsilonSpikerConcept_RightApillarCpillarJoint_Arrow**
 
 ## EpsilonSpikerConcept
+EpsilonSpiker Concept ETR50ESM1
 - EpsilonSpikerConcept_FrontChassis
     - EpsilonSpikerConcept_ArmMotor
         - EpsilonSpikerConcept_LightSensor
@@ -117,6 +122,7 @@
     - RearChassisCpillarJointもボタンで45度回す。
 - RearChassisにあわせて全体を(0,-0.029,-0.037)移動させる
 - ねじってRoofとの帳尻をあわせるため、RearChassisのみ(0,19.971,9.963)へ移動させる。
+- M4のA-Cジョイントは17度回転、RotationPointは(-130,-140,250)
 
 
 # LPub3D Technics
