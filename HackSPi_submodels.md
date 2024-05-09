@@ -16,13 +16,13 @@
     - EpsilonSpikerConcept_Caster
     - EpsilonSpikerConcept_RearChassisJoint
 - EpsilonSpikerConcept_RearChassisApillarJoint
-- EpsilonSpikerConcept_Cpillar_GroundCamera
-    - EpsilonSpikerConcept_CameraModule
+- **HackSPi_M4_Cpillar**
 - EpsilonSpikerConcept_LeftRearChassisCpillarJoint
 - EpsilonSpikerConcept_RightRearChassisCpillarJoint
 - EpsilonSpikerConcept_LeftApillarCpillarJoint
 - EpsilonSpikerConcept_RightApillarCpillarJoint
-- *HackSPi_M4_Head*
+- **HackSPi_M4_Head**
+    - *EpsilonSpikerConcept_CameraModule*
 
 
 ## HackSPi_M2
