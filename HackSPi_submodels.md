@@ -9,6 +9,7 @@
         - EpsilonSpikerConcept_LeftRoof
         - EpsilonSpikerConcept_RightRoof
     - EpsilonSpikerConcept_FrontChassisJoint
+    - **HackSPi_M4_SpikeHub**
     - EpsilonSpikerConcept_Wheel
         - EpsilonSpikerConcept_WheelCap
 - HackSPi_M2_RearChassis

@@ -7,7 +7,7 @@
 0 
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG -3 1
-1 0 0 -21.242 -51.534 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 EpsilonSpikerConcept_FrontChassis.ldr
+1 0 0 -21.242 -51.534 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 HackSPi_M4_FrontChassis.ldr
 1 0 0 19.971 9.963 1 0 0 0 1 0 0 0 1 HackSPi_M2_RearChassis.ldr
 1 0 80 49.468 -37.392 -1 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 EpsilonSpikerConcept_RearChassisApillarJoint.ldr
 1 0 -80 49.468 -37.392 -1 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 EpsilonSpikerConcept_RearChassisApillarJoint.ldr
@@ -66,7 +66,7 @@
 1 71 100 40 40 -1 0 0 0 -1 0 0 0 1 32054.dat
 1 71 -100 40 40 1 0 0 0 1 0 0 0 1 32054.dat
 0 STEP
-1 71 0 -50 80 1 0 0 0 1 0 0 0 1 EpsilonSpikerConcept_Head.ldr
+1 71 0 -50 80 1 0 0 0 1 0 0 0 1 HackSPi_M4_SpikeHub.ldr
 0 STEP
 1 0 -80 40 160 0 1 0 0 0 -1 -1 0 0 2739a.dat
 1 0 80 40 160 0 1 0 0 0 -1 -1 0 0 2739a.dat
@@ -102,6 +102,29 @@
 0 STEP
 1 0 120 0 20 0 1 0 0 0 -1 -1 0 0 60484.dat
 1 0 -120 0 20 0 1 0 0 0 -1 -1 0 0 60484.dat
+0 STEP
+0 
+0 NOFILE
+0
+0 FILE HackSPi_M4_SpikeHub.ldr
+0 SPIKE Hub Ass'y, HackSPi Clione M4
+0 Name: HackSPi_M4_SpikeHub.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET robocon 2024
+0 ROTATION CENTER 80 -90 80 0 "Custom" 
+0 ROTATION CONFIG 0 1
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 45601p02.dat
+1 0 70 -9.999 80 -1 0 0 0 -1 0 0 0 1 6628.dat
+1 71 80 -50 80 -1 0 0 0 -1 0 0 0 1 32054.dat
+1 4 110 -50 80 -1 0 0 0 -1 0 0 0 1 32062.dat
+0 STEP
+1 15 120 -50 80 0 -1 0 0 0 -1 1 0 0 41669.dat
+0 STEP
+1 0 -70 -9.999 80 1 0 0 0 -1 0 0 0 -1 6628.dat
+1 71 -80 -50 80 1 0 0 0 -1 0 0 0 -1 32054.dat
+1 4 -110 -50 80 -1 0 0 0 -1 0 0 0 1 32062.dat
+0 ROTSTEP 23 -45 0 ABS
+1 15 -120 -50 80 0 1 0 0 0 -1 -1 0 0 41669.dat
 0 STEP
 0 
 0 NOFILE
@@ -5187,6 +5210,8 @@
 0 !LPUB MULTI_STEP END
 0 
 0 NOFILE
+0 
+0 
 0 
 0
 0
