@@ -1,6 +1,53 @@
 # HackSPi submodel structure
 
+## HackSPi_M4
+- EpsilonSpikerConcept_FrontChassis
+    - EpsilonSpikerConcept_ArmMotor
+        - EpsilonSpikerConcept_LightSensor
+    - EpsilonSpikerConcept_Apillar
+        - EpsilonSpikerConcept_RasPiSupport
+        - EpsilonSpikerConcept_LeftRoof
+        - EpsilonSpikerConcept_RightRoof
+    - EpsilonSpikerConcept_FrontChassisJoint
+    - EpsilonSpikerConcept_Head
+        - EpsilonSpikerConcept_Antenna
+    - EpsilonSpikerConcept_Wheel
+        - EpsilonSpikerConcept_WheelCap
+- HackSPi_M2_RearChassis
+    - EpsilonSpikerConcept_Caster
+    - EpsilonSpikerConcept_RearChassisJoint
+- EpsilonSpikerConcept_RearChassisApillarJoint
+- EpsilonSpikerConcept_Cpillar_GroundCamera
+    - EpsilonSpikerConcept_CameraModule
+- EpsilonSpikerConcept_LeftRearChassisCpillarJoint
+- EpsilonSpikerConcept_RightRearChassisCpillarJoint
+- EpsilonSpikerConcept_LeftApillarCpillarJoint
+- EpsilonSpikerConcept_RightApillarCpillarJoint
+
+
 ## HackSPi_M2
+- EpsilonSpikerConcept_FrontChassis
+    - EpsilonSpikerConcept_ArmMotor
+        - EpsilonSpikerConcept_LightSensor
+    - EpsilonSpikerConcept_Apillar
+        - EpsilonSpikerConcept_RasPiSupport
+        - EpsilonSpikerConcept_LeftRoof
+        - EpsilonSpikerConcept_RightRoof
+    - EpsilonSpikerConcept_FrontChassisJoint
+    - EpsilonSpikerConcept_Head
+        - EpsilonSpikerConcept_Antenna
+    - EpsilonSpikerConcept_Wheel
+        - EpsilonSpikerConcept_WheelCap
+- **HackSPi_M2_RearChassis**
+    - EpsilonSpikerConcept_Caster
+    - EpsilonSpikerConcept_RearChassisJoint
+- EpsilonSpikerConcept_RearChassisApillarJoint
+- EpsilonSpikerConcept_Cpillar_GroundCamera
+    - EpsilonSpikerConcept_CameraModule
+- EpsilonSpikerConcept_LeftRearChassisCpillarJoint
+- EpsilonSpikerConcept_RightRearChassisCpillarJoint
+- EpsilonSpikerConcept_LeftApillarCpillarJoint
+- EpsilonSpikerConcept_RightApillarCpillarJoint
 
 
 ## HackSPi_M2_Arrow
