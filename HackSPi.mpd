@@ -5,8 +5,8 @@
 0 Official Model, ET Robocon 2024
 0 !LICENSE see PUBLISH_COPYRIGHT
 0 
-0 ROTATION CENTER -140 -130 250 1 "Custom" 
-0 ROTATION CONFIG 0 1
+0 ROTATION CENTER 0 -162.5 146.5 1 "Custom" 
+0 ROTATION CONFIG 1 1
 1 0 0 -21.242 -51.534 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 HackSPi_M4_FrontChassis.ldr
 1 0 0 19.971 9.963 1 0 0 0 1 0 0 0 1 HackSPi_M2_RearChassis.ldr
 1 0 80 49.468 -37.392 -1 0 0 0 0.707107 -0.707107 0 -0.707107 -0.707107 EpsilonSpikerConcept_RearChassisApillarJoint.ldr
@@ -21,6 +21,12 @@
 1 19 150 -142 211 1 0 0 0 -0.956305 -0.292372 0 0.292372 -0.956305 3749.dat
 1 0 160 -142.569 209.898 0 0 1 -0.292372 0.956305 0 -0.956305 -0.292372 0 45590.dat
 0 STEP
+1 0 -150 -162.5 146.5 1 0 0 0 0.990268 0.139173 0 -0.139173 0.990268 HackSPi_M4_RightNeck.ldr
+0 ROTSTEP 23 -45 0 ABS
+1 0 0 -386.911 73.017 1 0 0 0 0.875718 -0.482822 0 0.482822 0.875718 HackSPi_M4_Head.ldr
+0 STEP
+1 0 130 -162.5 146.5 1 0 0 0 0.990268 0.139173 0 -0.139173 0.990268 HackSPi_M4_LeftNeck.ldr
+0 ROTSTEP END
 0 ROTSTEP 0 0 0 ABS
 0 
 0 NOFILE
@@ -101,8 +107,8 @@
 0 ROTSTEP -157 -45 0 ABS
 1 0 110 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
 1 0 -110 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
-1 0 100 -40 40 -1 0 0 0 0 -1 0 -1 0 EpsilonSpikerConcept_RightRoof.ldr
-1 0 -100 -40 40 -1 0 0 0 0 -1 0 -1 0 EpsilonSpikerConcept_LeftRoof.ldr
+1 0 100 -40 40 -1 0 0 0 0 -1 0 -1 0 HackSPi_M4_RightRoof.ldr
+1 0 -100 -40 40 -1 0 0 0 0 -1 0 -1 0 HackSPi_M4_LeftRoof.ldr
 0 STEP
 1 0 120 0 20 0 1 0 0 0 -1 -1 0 0 60484.dat
 1 0 -120 0 20 0 1 0 0 0 -1 -1 0 0 60484.dat
@@ -181,53 +187,124 @@
 0 
 0 NOFILE
 0
+0 FILE HackSPi_M4_LeftNeck.ldr
+0 Neck Ass'y, Left, HackSPi Clione M4
+0 Name: HackSPi_M4_LeftNeck.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET robocon 2024
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 1
+1 0 0 24 32 1 0 0 0 0.8 0.6 0 -0.6 0.8 2780.dat
+1 0 0 12 16 1 0 0 0 0.8 0.6 0 -0.6 0.8 2780.dat
+1 0 10 36 48 0 -1 0 -0.8 0 -0.6 0.6 0 -0.8 32348.dat
+1 19 0 -60 0 1 0 0 0 1 0 0 0 1 3749.dat
+1 19 0 -20 0 -1 0 0 0 0 -1 0 -1 0 3749.dat
+1 0 0 -40 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 ROTSTEP 23 -45 0 ABS
+1 0 -10 -180 0 0 1 0 0 0 -1 -1 0 0 32009.dat
+1 0 -20 -180 -60 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 -20 -180 -40 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 ROTSTEP END
+1 0 -30 -180 -20 0 -1 0 -1 0 0 0 0 -1 32348.dat
+0 STEP
+0 
+0 NOFILE
+0
+0 FILE HackSPi_M4_RightNeck.ldr
+0 Neck Ass'y, Right, HackSPi Clione M4
+0 Name: HackSPi_M4_RightNeck.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET robocon 2024
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 0
+1 0 20 24 32 1 0 0 0 0.8 0.6 0 -0.6 0.8 2780.dat
+1 0 20 12 16 1 0 0 0 0.8 0.6 0 -0.6 0.8 2780.dat
+1 0 10 36 48 0 -1 0 -0.8 0 -0.6 0.6 0 -0.8 32348.dat
+1 19 20 -60 0 -1 0 0 0 1 0 0 0 -1 3749.dat
+1 19 20 -20 0 1 0 0 0 0 -1 0 1 0 3749.dat
+1 0 20 -40 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
+1 0 30 -180 0 0 1 0 0 0 -1 -1 0 0 32009.dat
+1 0 40 -180 -60 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 40 -180 -40 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 ROTSTEP END
+1 0 50 -180 -20 0 -1 0 -1 0 0 0 0 -1 32348.dat
+0 STEP
+0 
+0 NOFILE
+0
 0 FILE HackSPi_M4_Head.ldr
 0 Head Ass'y, HackSPi Clione M4
 0 Name: HackSPi_M4_Head.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Preliminary Model, ET robocon 2024
+0 ROTATION CENTER 0 -60 -20 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 26 -40 0 0.001 1 0 0 0 0 -1 0 1 0 39793.dat
+1 0 0 -20 0 1 0 0 0 0 -1 0 1 0 18651.dat
+0 STEP
+1 14 0 0 0.001 0 -1 0 0 0 -1 1 0 0 32523.dat
+1 0 0 20 0.001 -1 0 0 0 0 1 0 1 0 18651.dat
+0 STEP
+1 26 40 0 0.001 1 0 0 0 0 -1 0 1 0 39793.dat
+0 STEP
+1 1 -80 20 0.001 -1 0 0 0 0 1 0 1 0 6558.dat
+1 0 -80 -20 0 -1 0 0 0 0 1 0 1 0 18651.dat
+1 0 80 -20 0 1 0 0 0 0 -1 0 1 0 18651.dat
+1 1 80 20 0.001 1 0 0 0 0 -1 0 1 0 6558.dat
+0 STEP
+1 14 -80 0 0.001 0 -1 0 0 0 -1 1 0 0 32523.dat
+1 14 80 0 0.001 0 -1 0 0 0 -1 1 0 0 32523.dat
+0 STEP
+1 71 0 0 20 0 -1 0 1 0 0 0 0 1 48989.dat
+0 ROTSTEP 23 225 0 ABS
+1 0 60 -0.001 -10 0 0 -1 0 -1 0 -1 0 0 2780.dat
+1 0 -60 -0.001 -10 0 0 -1 0 -1 0 -1 0 0 2780.dat
+0 ROTSTEP END
+1 0 -40 -0.001 -20 0 0 -1 -1 0 0 0 1 0 39793.dat
+1 0 40 -0.001 -20 0 0 -1 -1 0 0 0 1 0 39793.dat
+1 19 60 -30 -20 0 0 -1 -1 0 0 0 1 0 3749.dat
+1 19 -60 -30 -20 0 0 -1 -1 0 0 0 1 0 3749.dat
+0 STEP
+1 0 0 0 -70 1 0 0 0 0 -1 0 1 0 HackSPi_M4_CameraModule.ldr
+0 STEP
+1 15 60 -60 -20 1 0 0 0 0 -1 0 1 0 32192.dat
+1 15 -60 -60 -20 1 0 0 0 0 -1 0 1 0 32192.dat
+1 19 -60 -81.213 -41.213 0 0 1 0.707107 -0.707107 0 0.707107 0.707107 0 3749.dat
+1 19 60 -81.213 -41.213 0 0 1 0.707107 -0.707107 0 0.707107 0.707107 0 3749.dat
+0 STEP
+1 15 0 -88.284 -48.284 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 37316.dat
+0 STEP
+0 
+0 NOFILE
+0
+0 FILE HackSPi_M4_CameraModule.ldr
+0 Camera Module Ass'y, HackSPi Clione M4
+0 Name: HackSPi_M4_CameraModule.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET robocon 2024
 0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 1
-1 26 -40 -32 84 1 0 0 0 0.6 -0.8 0 0.8 0.6 39793.dat
-1 0 0 -48 96 1 0 0 0 0.6 -0.8 0 0.8 0.6 18651.dat
+0 ROTATION CONFIG 0 0
+1 2 -40 -4 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 2 40 -4 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 15 0 -4 20 0 0 -1 0 1 0 1 0 0 3941.dat
 0 STEP
-1 14 0 -32 84 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32523.dat
-1 0 0 -16 72 -1 0 0 0 0.6 0.8 0 0.8 -0.6 18651.dat
+1 322 -20 -12 20 1 0 0 0 1 0 0 0 1 4032a.dat
+1 322 20 -12 20 1 0 0 0 1 0 0 0 1 4032a.dat
 0 STEP
-1 26 40 -32 84 1 0 0 0 0.6 -0.8 0 0.8 0.6 39793.dat
+1 4 -40 -36 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 4 40 -36 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 15 0 -36 20 0 0 -1 0 1 0 1 0 0 3941.dat
 0 STEP
-1 1 -80 -16 72 -1 0 0 0 0.6 0.8 0 0.8 -0.6 6558.dat
-1 0 -80 -48 96 -1 0 0 0 0.6 0.8 0 0.8 -0.6 18651.dat
-1 0 80 -48 96 1 0 0 0 0.6 -0.8 0 0.8 0.6 18651.dat
-1 1 80 -16 72 1 0 0 0 0.6 -0.8 0 0.8 0.6 6558.dat
-0 STEP
-1 14 -80 -32 84 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32523.dat
-1 14 80 -32 84 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32523.dat
-0 STEP
-1 0 -100 0 0 0 1 0 -1 0 0 0 0 1 32348.dat
-1 0 100 0 0 0 1 0 -1 0 0 0 0 1 32348.dat
-0 STEP
-1 0 0 -2 124 -1 0 0 0 -0.6 -0.8 0 -0.8 0.6 EpsilonSpikerConcept_CameraModule.ldr
-0 STEP
-1 71 0 -44 68 0 0 -1 0.8 -0.6 0 -0.6 -0.8 0 14720.dat
-0 STEP
-1 0 -110 0 20 1 0 0 0 1 0 0 0 1 2780.dat
-1 0 -110 0 40 1 0 0 0 1 0 0 0 1 2780.dat
-1 0 110 0 20 1 0 0 0 1 0 0 0 1 2780.dat
-1 0 110 0 40 1 0 0 0 1 0 0 0 1 2780.dat
-0 STEP
-1 322 -120 80 0 0 -1 0 0 0 -1 1 0 0 32526.dat
-1 0 -110 40 0 -1 0 0 0 1 0 0 0 -1 2780.dat
-1 0 -110 80 0 -1 0 0 0 1 0 0 0 -1 2780.dat
-0 STEP
-1 26 0 80 0 0 0 -1 -1 0 0 0 1 0 39794.dat
-1 0 110 40 0 1 0 0 0 1 0 0 0 1 2780.dat
-1 0 110 80 0 1 0 0 0 1 0 0 0 1 2780.dat
-1 0 -40 150 0 0 0 1 1 0 0 0 1 0 2780.dat
-1 0 40 150 0 0 0 1 1 0 0 0 1 0 2780.dat
-0 STEP
-1 322 120 80 0 0 -1 0 0 0 -1 1 0 0 32526.dat
-1 322 0 160 0 0 0 1 0 -1 0 1 0 0 32524.dat
+1 0 -40 0 -20 0 0 1 1 0 0 0 1 0 3705.dat
+1 0 40 0 -20 0 0 1 1 0 0 0 1 0 3705.dat
+1 4 40 20 20 0 0 1 1 0 0 0 1 0 32062.dat
+1 4 -40 20 20 0 0 1 1 0 0 0 1 0 32062.dat
+0 ROTSTEP -23 45 0 ABS
+1 71 40 50 -20 0 0 1 1 0 0 0 1 0 32054.dat
+1 71 -40 50 -20 0 0 1 1 0 0 0 1 0 32054.dat
+1 71 -40 50 20 0 0 1 1 0 0 0 1 0 32054.dat
+1 71 40 50 20 0 0 1 1 0 0 0 1 0 32054.dat
 0 STEP
 0 
 0 NOFILE
@@ -5313,6 +5390,16 @@
 0 !LPUB MULTI_STEP END
 0 
 0 NOFILE
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
 0 
 0 
 0 

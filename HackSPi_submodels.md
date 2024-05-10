@@ -21,10 +21,10 @@ HackSPi Clione (EpsilonPredator) ETR50EPM4
 - **HackSPi_M4_Cpillar**
 - EpsilonSpikerConcept_LeftRearChassisCpillarJoint
 - EpsilonSpikerConcept_RightRearChassisCpillarJoint
-- EpsilonSpikerConcept_LeftApillarCpillarJoint
-- EpsilonSpikerConcept_RightApillarCpillarJoint
+- **HackSPi_M4_LeftNeck**
+- **HackSPi_M4_RightNeck**
 - **HackSPi_M4_Head**
-    - *EpsilonSpikerConcept_CameraModule*
+    - **HackSPi_M4_CameraModule**
 
 
 ## HackSPi_M2
@@ -122,7 +122,12 @@ EpsilonSpiker Concept ETR50ESM1
     - RearChassisCpillarJointもボタンで45度回す。
 - RearChassisにあわせて全体を(0,-0.029,-0.037)移動させる
 - ねじってRoofとの帳尻をあわせるため、RearChassisのみ(0,19.971,9.963)へ移動させる。
-- M4のA-Cジョイントは17度回転、RotationPointは(-130,-140,250)
+- M4のA-Cジョイントは寸法的にぴったりは絶対あわない。17度回転、RotationPointは(-130,-140,250)
+- M4の首部は、シャシーとのマウント部Vビームの谷底のホールを最終的なWorld Originにする。
+    - 後転36.87°の回転行列は、[ 1 0 0 ][ 0 0.8  0.6 ][ 0 -0.6 0.8 ] 1 0 0 0 0.8 0.6 0 -0.6 0.8
+    - 前転36.87°の回転行列は、[ 1 0 0 ][ 0 0.8 -0.6 ][ 0  0.6 0.8 ] 1 0 0 0 0.8 -0.6 0 0.6 0.8
+    - 前転53.13°の回転行列は、[ 1 0 0 ][ 0 0.6 -0.8 ][ 0  0.8 0.6 ] 1 0 0 0 0.6 -0.8 0 0.8 0.6
+    1 0 0 0 0.990268 0.139173 0 -0.139173 0.990268
 
 
 # LPub3D Technics
