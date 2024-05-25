@@ -1,6 +1,35 @@
 # HackSPi submodel structure
 ## Warning: an unofficial LDraw parts #46372 is required.
 
+
+## HackSPi_M4_Arrow
+HackSPi (EpsilonSpiker) ETR50EPM4
+- HackSPi_M2_FrontChassis_Arrow
+    - HackSPi_M2_ArmMotor_Arrow
+        - EpsilonSpikerConcept_LightSensor_Arrow
+        - HackSPi_M2_BumperSpacer_Arrow
+    - HackSPi_M2_Apillar_Arrow
+        - HackSPi_M2_BatterySupport_Arrow
+        - EpsilonSpikerConcept_RasPiSupport
+        - HackSPi_M2_MagentaCableClip_Arrow
+        - EpsilonSpikerConcept_Roof_Arrow
+    - HackSPi_M2_FrontChassisJoint_Arrow
+    - EpsilonSpikerConcept_Head_Arrow
+        - EpsilonSpikerConcept_Antenna_Arrow
+    - HackSPi_M2_Wheel_Arrow
+        - HackSPi_M2_WheelCap_Arrow
+- HackSPi_M2_RearChassis_Arrow
+    - EpsilonSpikerConcept_Caster_Arrow
+    - EpsilonSpikerConcept_RearChassisJoint_Arrow
+- EpsilonSpikerConcept_RearChassisApillarJoint_Arrow
+- EpsilonSpikerConcept_Cpillar_GroundCamera_Arrow
+    - EpsilonSpikerConcept_CameraModule_Arrow
+- EpsilonSpikerConcept_LeftRearChassisCpillarJoint_Arrow
+- EpsilonSpikerConcept_RightRearChassisCpillarJoint_Arrow
+- EpsilonSpikerConcept_LeftApillarCpillarJoint_Arrow
+- EpsilonSpikerConcept_RightApillarCpillarJoint_Arrow
+
+
 ## HackSPi_M4
 HackSPi Clione (EpsilonPredator) ETR50EPM4
 - **HackSPi_M4_FrontChassis**
