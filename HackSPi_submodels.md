@@ -18,8 +18,9 @@ HackSPi (EpsilonSpiker) ETR50EPM4
         - ~~HackSPi_M2_MagentaCableClip_Arrow~~
         - EpsilonSpikerConcept_Roof_Arrow
     - HackSPi_M2_FrontChassisJoint_Arrow
-    - EpsilonSpikerConcept_Head_Arrow
-        - EpsilonSpikerConcept_Antenna_Arrow
+    - **HackSPi_M4_SpikeHub_Arrow**
+    - ~~EpsilonSpikerConcept_Head_Arrow~~
+        - ~~EpsilonSpikerConcept_Antenna_Arrow~~
     - HackSPi_M2_Wheel_Arrow
         - HackSPi_M2_WheelCap_Arrow
 - HackSPi_M2_RearChassis_Arrow
