@@ -1,14 +1,18 @@
-# HackSPi submodel structure
+# HackSPi Building Instruction
 ## Warning: an unofficial LDraw parts #46372 is required.
+## LPub3D settings, DON'T USE NATIVE RENDERER! 
+### Configuration->Preferences->Renderers->Preferred renderer: LDView
+### ~/LDView->Renderer Settings->LDView Preferences->Geometry->Edge Lines->Thickness: 3(center)
 
+# HackSPi submodel structure
 
 ## HackSPi_M4_Arrow
 HackSPi (EpsilonSpiker) ETR50EPM4
-- HackSPi_M2_FrontChassis_Arrow
+- **HackSPi_M4_FrontChassis_Arrow**
     - HackSPi_M2_ArmMotor_Arrow
         - EpsilonSpikerConcept_LightSensor_Arrow
         - HackSPi_M2_BumperSpacer_Arrow
-    - HackSPi_M2_Apillar_Arrow
+    - **HackSPi_M4_Apillar_Arrow**
         - HackSPi_M2_BatterySupport_Arrow
         - EpsilonSpikerConcept_RasPiSupport
         - HackSPi_M2_MagentaCableClip_Arrow
