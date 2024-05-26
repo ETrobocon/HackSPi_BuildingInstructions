@@ -13,9 +13,9 @@ HackSPi (EpsilonSpiker) ETR50EPM4
         - EpsilonSpikerConcept_LightSensor_Arrow
         - HackSPi_M2_BumperSpacer_Arrow
     - **HackSPi_M4_Apillar_Arrow**
-        - HackSPi_M2_BatterySupport_Arrow
+        - ~~HackSPi_M2_BatterySupport_Arrow~~
         - EpsilonSpikerConcept_RasPiSupport
-        - HackSPi_M2_MagentaCableClip_Arrow
+        - ~~HackSPi_M2_MagentaCableClip_Arrow~~
         - EpsilonSpikerConcept_Roof_Arrow
     - HackSPi_M2_FrontChassisJoint_Arrow
     - EpsilonSpikerConcept_Head_Arrow
