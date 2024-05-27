@@ -27,7 +27,8 @@ HackSPi (EpsilonSpiker) ETR50EPM4
     - EpsilonSpikerConcept_Caster_Arrow
     - EpsilonSpikerConcept_RearChassisJoint_Arrow
 - EpsilonSpikerConcept_RearChassisApillarJoint_Arrow
-- EpsilonSpikerConcept_Cpillar_GroundCamera_Arrow
+- ~~EpsilonSpikerConcept_Cpillar_GroundCamera_Arrow~~
+- **HackSPi_M4_Cpillar**
     - EpsilonSpikerConcept_CameraModule_Arrow
 - EpsilonSpikerConcept_LeftRearChassisCpillarJoint_Arrow
 - EpsilonSpikerConcept_RightRearChassisCpillarJoint_Arrow
