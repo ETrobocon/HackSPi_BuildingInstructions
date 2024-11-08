@@ -1,8 +1,23 @@
 # HackSPi Building Instruction
-## Warning: an unofficial LDraw parts #46372 is required.
 ## LPub3D settings, DON'T USE NATIVE RENDERER! 
 ### Configuration->Preferences->Renderers->Preferred renderer: LDView
 ### ~/LDView->Renderer Settings->LDView Preferences->Geometry->Edge Lines->Thickness: 3(center)
+
+# Zeta Platforms submodel structure
+
+## ZZetaSpikerConcept
+ZZetaSpiker Concept ETR25ZZM4
+- **ZZetaSpikerConcept_FrontChassis**
+    - ZetaChariotConcept_Body
+    - **ZetaSpikerConcept_Arm**
+    - **ZetaSpikerConcept_ArmGear**
+    - **ZetaSpikerConcept_ArmMotor**
+
+## ZetaChariotConcept / ZZetaChariotConcept
+Zeta/ZZetaChariot Concept ETR25ZCM4/80ZZCM4
+- **ZetaChariotConcept_RearChassis**
+    - **ZetaChariotConcept_Body**
+
 
 # HackSPi submodel structure
 

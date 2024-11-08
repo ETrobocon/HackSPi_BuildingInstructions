@@ -7629,5 +7629,104 @@
 0 
 0 
 0 
+0 
+0
+0 FILE ZZetaSpikerConcept.ldr
+0 ZZetaSpiker Concept
+0 Name: ZZetaSpikerConcept.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0
+0 FILE ZetaSpikerConcept_Arm.ldr
+0 Arm Assy, ZetaSpiker Concept
+0 Name: ZetaSpikerConcept_Arm.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -40 40 0 -1 0 0 0 -1 0 0 0 1 18651.dat
+1 15 -40 40 -20 1 0 0 0 0 1 0 -1 0 32184.dat
+1 1 -30 40 -40 -1 0 0 0 1 0 0 0 -1 43093.dat
+0 STEP
+1 15 0 40 -20 -1 0 0 0 0 -1 0 -1 0 37308.dat
+0 STEP
+1 15 -60 20 0 1 0 0 0 -1 0 0 0 -1 32184.dat
+1 4 0 0 0 1 0 0 0 1 0 0 0 1 3708.dat
+0 STEP
+1 0 20 0 0 0 0 1 0 1 0 -1 0 0 32270.dat
+1 0 40 0 20 0 -1 0 -1 0 0 0 0 -1 39793.dat
+1 0 -40 0 20 0 -1 0 -1 0 0 0 0 -1 39793.dat
+1 0 -40 -30 40 0 0 1 1 0 0 0 1 0 2780.dat
+1 0 40 -30 40 0 0 1 1 0 0 0 1 0 2780.dat
+0 STEP
+1 0 -80 80 0 0 1 0 -1 0 0 0 0 1 32009.dat
+1 0 80 80 0 0 1 0 -1 0 0 0 0 1 32009.dat
+0 STEP
+0
+0 FILE ZetaSpikerConcept_ArmGear.ldr
+0 Gear Ass'y, Arm, ZetaSpiker Concept
+0 Name: ZetaSpikerConcept_ArmGear.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 -40 0 0 1 0 1 0 -1 0 0 32073.dat
+1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 18575.dat
+0 STEP
+1 71 0 0 -20 0 0 -1 0 1 0 1 0 0 14720.dat
+1 1 -40 -20 -20 0 0 -1 -1 0 0 0 1 0 6558.dat
+1 1 40 -20 -20 0 0 -1 -1 0 0 0 1 0 6558.dat
+0 STEP
+1 71 0 0 -40 0 -1 0 -1 0 0 0 0 -1 3713.dat
+1 71 0 0 -60 0 1 0 -1 0 0 0 0 1 3713.dat
+1 0 0 0 -80 -1 0 0 0 1 0 0 0 -1 32270.dat
+0 STEP
+0
+0 FILE ZetaSpikerConcept_ArmMotor.ldr
+0 Motor Ass'y, Arm, ZetaSpiker Concept
+0 Name: ZetaSpikerConcept_ArmMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 20 0 90 0 0 1 0 -1 0 1 0 0 2780.dat
+1 0 -20 0 90 0 0 1 0 -1 0 1 0 0 2780.dat
+1 322 0 0 100 0 0 1 -1 0 0 0 -1 0 32524.dat
+1 0 -60 0 90 0 0 1 0 -1 0 1 0 0 2780.dat
+1 0 60 0 90 0 0 1 0 -1 0 1 0 0 2780.dat
+0 STEP
+1 15 0 0 60 1 0 0 0 0 -1 0 1 0 68488.dat
+1 4 0 0 10 0 0 1 0 1 0 -1 0 0 32062.dat
+0 STEP
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 46372.dat
+0 STEP
+0
+0 FILE ZetaChariotConcept_Body.ldr
+0 Body Ass'y, ZetaChariot Concept
+0 Name: ZetaChariotConcept_Body.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 -50 80 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 45601c01.dat
+1 1 70 -10 80 1 0 0 0 -1 0 0 0 -1 43093.dat
+1 1 -70 -10 80 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 0 70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 -70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 -70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 14 -80 -170 80 0 1 0 0 0 1 1 0 0 32271.dat
+1 0 -70 -130 80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 1 -70 -170 80 -1 0 0 0 0 -1 0 -1 0 43093.dat
+0 STEP
+1 15 0 -150 80 1 0 0 0 1 0 0 0 1 37316.dat
+1 0 70 -130 80 -1 0 0 0 0 1 0 1 0 2780.dat
+1 1 70 -170 80 1 0 0 0 0 1 0 -1 0 43093.dat
+0 STEP
+1 14 80 -170 80 0 1 0 0 0 1 1 0 0 32271.dat
+0 STEP
+0 
+0 
+0 
 0
 0
