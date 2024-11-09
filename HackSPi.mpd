@@ -8077,4 +8077,65 @@
 0 STEP
 0 
 0
+0 FILE ZZetaInvaderConcept_Camera.ldr
+0 Stereo Camera Module, ZZetaInvader Concept
+0 Name: ZZetaInvaderConcept_Camera.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 0 0 0 1 1 0 0 0 1 0 65489.dat
+1 0 -80 0 0 0 0 1 0 1 0 -1 0 0 64179.dat
+1 0 80 0 0 0 0 1 0 1 0 -1 0 0 64179.dat
+1 71 120 0 -20 0 0 -1 0 -1 0 -1 0 0 32054.dat
+1 71 -120 0 -20 0 0 -1 0 -1 0 -1 0 0 32054.dat
+0 STEP
+1 0 -20 -10 40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 -60 -10 40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 20 -10 40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 60 -10 40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 71 0 20 -40 0 1 0 0 0 -1 -1 0 0 65489.dat
+1 1 140 20 -40 0 0 1 1 0 0 0 1 0 6558.dat
+1 1 -140 20 -40 0 0 1 1 0 0 0 1 0 6558.dat
+0 STEP
+1 322 0 -20 40 0 0 1 0 1 0 -1 0 0 32524.dat
+1 0 0 40 -40 0 0 1 0 1 0 -1 0 0 32278.dat
+1 0 60 50 -40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 100 50 -40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 -100 50 -40 0 0 1 -1 0 0 0 -1 0 2780.dat
+1 0 -60 50 -40 0 0 1 -1 0 0 0 -1 0 2780.dat
+0 STEP
+1 71 80 60 0 -1 0 0 0 1 0 0 0 -1 14720.dat
+1 71 -80 60 0 -1 0 0 0 1 0 0 0 -1 14720.dat
+0 STEP
+0
+0 FILE ZZetaInvaderConcept_LeftCameraMount.ldr
+0 Mount Ass'y, Stereo Camera, Left, ZZetaInvader Concept
+0 Name: ZZetaInvaderConcept_LeftCameraMount.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 0 -1 0 0 0 -1 1 0 0 32526.dat
+1 0 -10 -80 0 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -10 0 0 1 0 0 0 0 1 0 -1 0 2780.dat
+1 71 0 -80 40 -1 0 0 0 -1 0 0 0 1 32054.dat
+1 19 -10 -60 0 -1 0 0 0 -1 0 0 0 1 3749.dat
+0 STEP
+0
+0 FILE ZZetaInvaderConcept_RightCameraMount.ldr
+0 Mount Ass'y, Camera, Right, ZZetaInvader Concept
+0 Name: ZZetaInvaderConcept_RightCameraMount.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 0 -1 0 0 0 -1 1 0 0 32526.dat
+1 0 10 -80 0 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 10 0 0 1 0 0 0 0 1 0 -1 0 2780.dat
+1 71 0 -80 40 1 0 0 0 1 0 0 0 1 32054.dat
+1 19 10 -60 0 1 0 0 0 1 0 0 0 1 3749.dat
+0 STEP
+0 
+0
 0

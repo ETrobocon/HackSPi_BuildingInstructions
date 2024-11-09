@@ -8,6 +8,12 @@
 ## ZetaShooterConcept / ZZetaShooterConcept
 Zeta/ZZetaShooter Concept ETR25ZM4/40ZZM4/50ZM4/80ZZM4
 
+## ZZetaInvaderConcept
+ZZetaInvader Concept ETR80ZZIM4
+- **ZZetaInvaderConcept_Camera**
+- **ZZetaInvaderConcept_LeftCameraMount**
+- **ZZetaInvaderConcept_RightCameraMount**
+
 ## ZZetaSpikerConcept
 ZZetaSpiker Concept ETR40ZZSM4
 - ZetaChariotConcept_Body
