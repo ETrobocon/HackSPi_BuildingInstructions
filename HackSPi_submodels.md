@@ -5,18 +5,38 @@
 
 # Zeta Platforms submodel structure
 
+## ZetaShooterConcept / ZZetaShooterConcept
+Zeta/ZZetaShooter Concept ETR25ZM4/40ZZM4/50ZM4/80ZZM4
+
 ## ZZetaSpikerConcept
-ZZetaSpiker Concept ETR25ZZM4
-- **ZZetaSpikerConcept_FrontChassis**
-    - ZetaChariotConcept_Body
-    - **ZetaSpikerConcept_Arm**
-    - **ZetaSpikerConcept_ArmGear**
-    - **ZetaSpikerConcept_ArmMotor**
+ZZetaSpiker Concept ETR40ZZSM4
+- ZetaChariotConcept_Body
+- **ZetaSpikerConcept_Arm**
+- **ZetaSpikerConcept_ArmGear**
+- **ZetaSpikerConcept_ArmMotor**
+- ZetaChariotConcept_TouchSensor
+- ZetaChariotConcept_Apillar
+- ZetaChariotConcept_ApillarBodyJoint
+- ZZetaChariotConcept_Motor40ZZ
 
 ## ZetaChariotConcept / ZZetaChariotConcept
-Zeta/ZZetaChariot Concept ETR25ZCM4/80ZZCM4
-- **ZetaChariotConcept_RearChassis**
+Zeta/ZZetaChariot Concept ETR25ZCM4~80ZZCM4
+- **ZZetaChariotConcept_RearChassis**
     - **ZetaChariotConcept_Body**
+    - **ZetaChariotConcept_TouchSensor**
+    - **ZetaChariotConcept_ColorSensor**
+    - **ZetaChariotConcept_Apillar**
+    - **ZetaChariotConcept_ApillarBodyJoint**
+    - **ZetaChariotConcept_Motor25Z**
+    - **ZetaChariotConcept_Motor50Z**
+    - **ZZetaChariotConcept_Motor40ZZ**
+    - **ZZetaChariotConcept_Motor80ZZ**
+- **ZetaChariotConcept_FrontChassis**
+    - **ZetaChariotConcept_LeftArm**
+    - **ZetaChariotConcept_RightArm**
+    - **ZetaChariotConcept_CameraMount**
+- **ZetaChariotConcept_LeftFrontRearJoint**
+- **ZetaChariotConcept_RightFrontRearJoint**
 
 
 # HackSPi submodel structure
