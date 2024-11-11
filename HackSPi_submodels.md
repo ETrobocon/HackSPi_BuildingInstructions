@@ -5,8 +5,44 @@
 
 # Zeta Platforms submodel structure
 
-## ZetaShooterConcept / ZZetaShooterConcept
-Zeta/ZZetaShooter Concept ETR25ZM4/40ZZM4/50ZM4/80ZZM4
+## ZZetaShooterConcept
+ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Rex"
+- **ZZetaShooterConcept_FrontChassis**
+    - ? ZetaShooterConcept_Arm
+    - **ZZetaShooterConcept_ArmGear**
+    - **ZZetaShooterConcept_ArmMotor**
+    - ZetaChariotConcept_ApillarBodyJoint
+    - **ZZetaShooterConcept_FrontChassisJoint**
+- **ZZetaShooterConcept_RearChassis**
+    - **ZZetaShooterConcept_Caster**
+    - **ZZetaShooterConcept_CasterSupport**
+    - **ZZetaShooterConcept_RearChassisJoint**
+    - **ZZetaShooterConcept_Bpillar**
+- **ZZetaShooterConcept_BatterySupport**
+
+
+## ZetaShooterConcept
+ZetaShooter Concept ETR25ZM4/50ZM4 "HackSPi Dax"
+- **ZetaShooterConcept_FrontChassis**
+    - **ZetaShooterConcept_Head**
+    - **ZetaShooterConcept_Arm**
+        - **ZetaShooterConcept_ColorSensor**
+    - **ZetaShooterConcept_ArmGear**
+    - **ZetaShooterConcept_WholeMotor**
+        - **ZetaShooterConcept_LeftMotor**
+        - **ZetaShooterConcept_RightMotor**
+    - **ZetaShooterConcept_ApillarBodyJoint**
+    - EpsilonSpikerConcept_FrontChassisJoint
+- **ZetaShooterConcept_RearChassis**
+    - **ZetaShooterConcept_Caster**
+    - EpsilonSpikerConcept_RearChassisJoint
+    - **ZetaShooterConcept_Bpillar**
+    - **ZetaShooterConcept_LeftRearChassisBCpillarJoint**
+    - **ZetaShooterConcept_RightRearChassisBCpillarJoint**
+    - **ZetaShooterConcept_TouchSensor**
+- **ZetaShooterConcept_LeftApillarBpillarJoint**
+- **ZetaShooterConcept_RightApillarBpillarJoint**
+- **ZetaShooterConcept_BatterySupport**
 
 ## ZZetaInvaderConcept
 ZZetaInvader Concept ETR80ZZIM4
@@ -16,7 +52,7 @@ ZZetaInvader Concept ETR80ZZIM4
 
 ## ZZetaSpikerConcept
 ZZetaSpiker Concept ETR40ZZSM4
-- ZetaChariotConcept_Body
+- ZetaChariotConcept_Head
 - **ZetaSpikerConcept_Arm**
 - **ZetaSpikerConcept_ArmGear**
 - **ZetaSpikerConcept_ArmMotor**
@@ -28,7 +64,7 @@ ZZetaSpiker Concept ETR40ZZSM4
 ## ZetaChariotConcept / ZZetaChariotConcept
 Zeta/ZZetaChariot Concept ETR25ZCM4~80ZZCM4
 - **ZZetaChariotConcept_RearChassis**
-    - **ZetaChariotConcept_Body**
+    - **ZetaChariotConcept_Head**
     - **ZetaChariotConcept_TouchSensor**
     - **ZetaChariotConcept_ColorSensor**
     - **ZetaChariotConcept_Apillar**

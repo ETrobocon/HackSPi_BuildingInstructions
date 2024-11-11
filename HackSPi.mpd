@@ -1,3 +1,16 @@
+0 FILE ZetaShooterConcapt.ldr
+0 ZetaShooter Concept
+0 Name: ZetaShooterConcapt.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_RearChassis.ldr
+1 0 0 0 0 1 0 0 0 0.8 0.6 0 -0.6 0.8 ZetaShooterConcept_FrontChassis.ldr
+1 0 140 -130 -40 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_LeftApillarBpillarJoint.ldr
+1 0 -140 -150 -40 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_RightApillarBpillarJoint.ldr
+1 0 40 -290 60 -1 0 0 0 1 0 0 0 -1 ZetaShooterConcept_BatterySupport.ldr
+0
 0 FILE HackSPi_M4_Arrow.ldr
 0 HackSPi Clione M4 w/Arrow
 0 Name: HackSPi_M4_Arrow.ldr
@@ -7662,7 +7675,7 @@
 0 STEP
 1 0 0 80 -100 1 0 0 0 1 0 0 0 1 ZetaSpikerConcept_ArmGear.ldr
 0 STEP
-1 0 0 -60 -110 1 0 0 0 0 -1 0 1 0 ZetaChariotConcept_Body.ldr
+1 0 0 -60 -110 1 0 0 0 0 -1 0 1 0 ZetaChariotConcept_Head.ldr
 0 STEP
 1 0 60 -240 -120 1 0 0 0 1 0 0 0 1 ZetaChariotConcept_ApillarBodyJoint.ldr
 1 0 -60 -240 -120 -1 0 0 0 1 0 0 0 -1 ZetaChariotConcept_ApillarBodyJoint.ldr
@@ -7720,7 +7733,7 @@
 0 STEP
 1 0 0 72 116 1 0 0 0 0.8 0.6 0 -0.6 0.8 ZetaChariotConcept_ColorSensor.ldr
 0 STEP
-1 0 0 -42 164 1 0 0 0 0.6 -0.8 0 0.8 0.6 ZetaChariotConcept_Body.ldr
+1 0 0 -42 164 1 0 0 0 0.6 -0.8 0 0.8 0.6 ZetaChariotConcept_Head.ldr
 0 STEP
 1 0 60 -192 264 1 0 0 0 0.8 0.6 0 -0.6 0.8 ZetaChariotConcept_ApillarBodyJoint.ldr
 1 0 -60 -192 264 -1 0 0 0 0.8 -0.6 0 -0.6 -0.8 ZetaChariotConcept_ApillarBodyJoint.ldr
@@ -7863,9 +7876,9 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 46372.dat
 0 STEP
 0
-0 FILE ZetaChariotConcept_Body.ldr
-0 Body Ass'y, ZetaChariot Concept
-0 Name: ZetaChariotConcept_Body.ldr
+0 FILE ZetaChariotConcept_Head.ldr
+0 Head Ass'y, ZetaChariot Concept
+0 Name: ZetaChariotConcept_Head.ldr
 0 Author: TANAHASHI, Jiro (aka jtFuruhata)
 0 Preliminary Model, ET Robocon
 0 ROTATION CENTER 0 -50 80 1 "Custom" 
@@ -8137,5 +8150,774 @@
 1 19 10 -60 0 1 0 0 0 1 0 0 0 1 3749.dat
 0 STEP
 0 
+0
+0 FILE ZetaShooterConcept_FrontChassis.ldr
+0 Chassis Ass'y, Front, ZetaShooter Concept
+0 Name: ZetaShooterConcept_FrontChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -10 1 0 0 0 0 1 0 -1 0 EpsilonSpikerConcept_FrontChassisJoint.ldr
+1 26 0 20 -10 0 0 1 -1 0 0 0 -1 0 39794.dat
+0 STEP
+1 71 100 -20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 100 20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -100 -20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+1 71 -100 20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+0 STEP
+1 71 0 40 -50 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_WholeMotor.ldr
+0 STEP
+1 322 0 -60 -130 1 0 0 0 0 -1 0 1 0 39790.dat
+1 0 -40 70 -130 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 40 70 -130 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+1 0 0 -40 -120 1 0 0 0 0 -1 0 1 0 ZetaShooterConcept_Body.ldr
+0 STEP
+1 0 0 100 -170 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_Arm.ldr
+0 STEP
+1 0 60 -220 -130 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 0 -60 -220 -130 -1 0 0 0 1 0 0 0 -1 ZetaShooterConcept_ApillarBodyJoint.ldr
+0 STEP
+0
+0 FILE ZetaShooterConcept_Arm.ldr
+0 Arm Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Arm.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 1
+1 71 0 0 0 1 0 0 0 0.8 -0.6 0 0.6 0.8 60485.dat
+1 71 0 0 0 0 0 -1 -0.6 0.8 0 0.8 0.6 0 3713.dat
+1 71 -20 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 3713.dat
+1 0 20 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 32270.dat
+0 STEP
+1 71 -40 0 0 1 0 0 0 0 1 0 -1 0 32013.dat
+1 71 40 0 0 1 0 0 0 0 1 0 -1 0 32013.dat
+1 19 -40 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 19 40 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 71 60 0 0 0 0 -1 -0.6 0.8 0 0.8 0.6 0 3713.dat
+1 71 -60 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 3713.dat
+0 STEP
+1 0 -80 64 48 0 1 0 -0.8 0 -0.6 -0.6 0 0.8 32009.dat
+0 STEP
+1 0 0 44 8 1 0 0 0 0.8 -0.6 0 0.6 0.8 ZetaShooterConcept_ColorSensor.ldr
+0 STEP
+1 0 80 64 48 0 1 0 -0.8 0 -0.6 -0.6 0 0.8 32009.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_ArmGear.ldr
+0 Gear Ass'y, Arm, ZetaShooter Concept
+0 Name: ZetaShooterConcept_ArmGear.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 32034.dat
+1 0 40 0 0 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 0 -40 0 0 1 0 0 0 1 0 0 0 1 18651.dat
+0 STEP
+1 0 0 0 -30 0 0 1 0 1 0 -1 0 0 3705.dat
+1 71 0 0 -20 1 0 0 0 1 0 0 0 1 46372.dat
+0 STEP
+1 71 0 0 -40 0 0 1 1 0 0 0 1 0 44874.dat
+1 0 0 0 -60 -1 0 0 0 1 0 0 0 -1 32270.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_ColorSensor.ldr
+0 Sensor Ass'y, Color, ZetaShooter Concept
+0 Name: ZetaShooterConcept_ColorSensor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 -1 0 1 0 37308.dat
+1 19 30 0 -20 1 0 0 0 0 -1 0 1 0 3749.dat
+1 19 -30 0 -20 -1 0 0 0 0 -1 0 -1 0 3749.dat
+0 STEP
+1 15 40 0 0 -1 0 0 0 0 -1 0 -1 0 32184.dat
+1 15 -40 0 0 -1 0 0 0 0 -1 0 -1 0 32184.dat
+1 0 50 0 20 -1 0 0 0 0 -1 0 -1 0 3705.dat
+1 0 -50 0 20 -1 0 0 0 0 -1 0 -1 0 3705.dat
+0 STEP
+1 322 60 0 20 0 1 0 0 0 -1 -1 0 0 60483.dat
+1 322 -60 0 20 0 1 0 0 0 -1 -1 0 0 60483.dat
+1 0 70 -20 20 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -70 -20 20 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_Head.ldr
+0 Head Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Head.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 45601p02.dat
+1 19 70 -30.001 80 1 0 0 0 -1 0 0 0 -1 3749.dat
+1 0 70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 0 80 -30.001 80 0 -1 0 0 0 -1 1 0 0 32348.dat
+0 STEP
+1 19 70 -126 128 1 0 0 0 -0.6 -0.8 0 0.8 -0.6 3749.dat
+1 0 70 -102 96 1 0 0 0 0.6 0.8 0 -0.8 0.6 2780.dat
+0 STEP
+1 15 0 -114 112 1 0 0 0 0.6 0.8 0 -0.8 0.6 37316.dat
+0 STEP
+1 19 -70 -126 128 -1 0 0 0 -0.6 0.8 0 0.8 0.6 3749.dat
+1 0 -70 -102 96 -1 0 0 0 0.6 -0.8 0 -0.8 -0.6 2780.dat
+0 ROTSTEP 23 -45 0 ABS
+1 19 -70 -30.001 80 -1 0 0 0 -1 0 0 0 1 3749.dat
+1 0 -70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 0 -80 -30.001 80 0 -1 0 0 0 -1 1 0 0 32348.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_RearChassis.ldr
+0 Chassis Ass'y, Rear, ZetaShooter Concept
+0 Name: ZetaShooterConcept_RearChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 0 0 -9.971 160.037 0 0 1 0 -1 0 1 0 0 15458.dat
+1 0 -30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -40 -9.971 140.037 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 0 40 -9.971 140.037 1 0 0 0 -1 0 0 0 -1 18651.dat
+1 1 40 -9.971 220.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 1 -40 -9.971 220.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 1 0 10.029 240.037 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_Caster.ldr
+0 STEP
+1 322 -40 -9.971 220.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 322 40 -9.971 220.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 71 0 -9.971 160.037 1 0 0 0 -1 0 0 0 -1 32073.dat
+1 14 40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 322 60 -9.971 200.037 1 0 0 0 -1 0 0 0 -1 11954.dat
+1 19 50 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 3749.dat
+0 ROTSTEP -23 -45 0 ABS
+1 14 80 6 8 0 1 0 0.6 0 0.8 0.8 0 -0.6 32014.dat
+0 STEP
+1 322 0 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 EpsilonSpikerConcept_RearChassisJoint.ldr
+0 ROTSTEP END
+1 14 -40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 19 -50 6 8 -1 0 0 0 -0.8 0.6 0 0.6 0.8 3749.dat
+0 STEP
+1 322 -60 -9.971 200.037 -1 0 0 0 -1 0 0 0 1 11954.dat
+1 14 -80 6 8 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32014.dat
+0 STEP
+1 0 60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 71 -60 -29.971 140.037 -1 0 0 0 0 -1 0 -1 0 65489.dat
+1 71 60 -29.971 140.037 -1 0 0 0 0 -1 0 -1 0 65489.dat
+0 STEP
+1 71 60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 71 -60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 322 0 -49.971 120.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+1 322 0 -49.971 160.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+1 322 0 -29.971 240.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+0 STEP
+1 0 40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -80 -9.971 180.037 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 0 80 -9.971 180.037 1 0 0 0 -1 0 0 0 -1 18651.dat
+0 STEP
+1 26 0 -109.971 240.037 0 0 -1 -1 0 0 0 1 0 39794.dat
+0 STEP
+1 26 0 -109.971 80.037 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_Bpillar.ldr
+0 STEP
+1 26 80 -9.971 220.037 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_LeftRearChassisBCpillarJoint.ldr
+1 26 -80 -9.971 220.037 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_RightRearChassisBCpillarJoint.ldr
+0 STEP
+1 26 0 -269.971 120.037 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_TouchSensor.ldr
+0 STEP
+0
+0 FILE ZetaShooterConcept_Bpillar.ldr
+0 B-Pillar Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Bpillar.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 1 0 0 0 0 -1 0 1 0 39790.dat
+1 0 40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 90 120 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 90 80 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -90 120 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -90 80 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 71 -100 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+1 71 100 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+0 STEP
+1 0 -80 100 40 0 1 0 1 0 0 0 0 -1 60484.dat
+1 0 80 100 40 0 1 0 1 0 0 0 0 -1 60484.dat
+1 26 0 120 0 0 0 -1 0 1 0 1 0 0 32316.dat
+0 STEP
+1 0 20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_Caster.ldr
+0 Caster Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Caster.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 20 0 -1 0 0 0 1 0 0 0 -1 39370c01.dat
+1 0 0 10 -20 0 1 0 -1 0 0 0 0 1 2780.dat
+1 0 0 10 20 0 1 0 -1 0 0 0 0 1 2780.dat
+0 STEP
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+0 STEP
+1 1 -20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+1 1 20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_LeftRearChassisBCpillarJoint.ldr
+0 Joint Ass'y, Rear Chassis ans B-Pillar and C-Pillar, Left, ZetaShooter Concept
+0 Name: ZetaShooterConcept_LeftRearChassisBCpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 0 -1 0 1 0 0 0 0 1 40490.dat
+1 1 0 0 40 1 0 0 0 1 0 0 0 1 6558.dat
+0 STEP
+1 0 20 0 -40 0 -1 0 1 0 0 0 0 1 40490.dat
+1 0 10 0 -100 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 10 0 -120 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 0 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 14 40 -60 20 0 -1 0 0 0 1 -1 0 0 32140.dat
+1 19 30 -60 20 1 0 0 0 -1 0 0 0 -1 3749.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_RightRearChassisBCpillarJoint.ldr
+0 Joint Ass'y, Rear Chassis and B-pillar and C-pillar, Right, ZetaShooter Concept
+0 Name: ZetaShooterConcept_RightRearChassisBCpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 0 -1 0 1 0 0 0 0 1 40490.dat
+1 1 0 0 40 -1 0 0 0 -1 0 0 0 1 6558.dat
+0 STEP
+1 0 -20 0 -40 0 -1 0 1 0 0 0 0 1 40490.dat
+1 0 -10 0 -100 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -10 0 -120 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -30 0 0 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 14 -40 -60 20 0 -1 0 0 0 1 -1 0 0 32140.dat
+1 19 -30 -60 20 -1 0 0 0 1 0 0 0 -1 3749.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_LeftApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Left, ZetaShooter Concept
+0 Name: ZetaShooterConcept_LeftApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 14 -20 16 -12 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32523.dat
+1 0 -20 32 -24 1 0 0 0 0.6 -0.8 0 0.8 0.6 18651.dat
+1 1 -20 0 0 1 0 0 0 0.6 -0.8 0 0.8 0.6 6558.dat
+0 STEP
+1 0 0 0 60 0 1 0 1 0 0 0 0 -1 32348.dat
+1 4 10 0 60 -1 0 0 0 -1 0 0 0 1 32062.dat
+0 STEP
+1 14 -20 0 120 0 1 0 0 0 1 1 0 0 32523.dat
+1 0 -30 20 120 1 0 0 0 0 1 0 -1 0 2780.dat
+1 1 0 0 120 1 0 0 0 0 1 0 -1 0 6558.dat
+1 0 -20 -20 120 1 0 0 0 0 -1 0 1 0 18651.dat
+0 STEP
+1 0 0 0 80 0 1 0 -1 0 0 0 0 1 60484.dat
+1 0 10 20 120 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 10 0 80 -1 0 0 0 1 0 0 0 -1 2780.dat
+0 STEP
+1 14 20 0 60 0 -1 0 1 0 0 0 0 1 32140.dat
+0 STEP
+0 
+0 
+0
+0 FILE ZetaShooterConcept_RightApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Right, ZetaShooter Concept
+0 Name: ZetaShooterConcept_RightApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 20 16 -12 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32523.dat
+1 0 20 32 -24 -1 0 0 0 0.6 -0.8 0 -0.8 -0.6 18651.dat
+1 1 20 0 0 -1 0 0 0 0.6 -0.8 0 -0.8 -0.6 6558.dat
+0 STEP
+1 0 0 0 60 0 1 0 1 0 0 0 0 -1 32348.dat
+1 4 -10 0 60 -1 0 0 0 -1 0 0 0 1 32062.dat
+0 STEP
+1 14 20 0 120 0 1 0 0 0 1 1 0 0 32523.dat
+1 1 0 0 120 -1 0 0 0 0 1 0 1 0 6558.dat
+1 0 20 -20 120 -1 0 0 0 0 -1 0 -1 0 18651.dat
+1 0 30 20 120 1 0 0 0 0 1 0 -1 0 2780.dat
+0 STEP
+1 0 0 0 80 0 1 0 -1 0 0 0 0 1 60484.dat
+1 0 -10 20 120 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -10 0 80 -1 0 0 0 1 0 0 0 -1 2780.dat
+0 STEP
+1 14 -20 0 60 0 -1 0 1 0 0 0 0 1 32140.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_TouchSensor.ldr
+0 Sensor Ass'y, Touch, ZetaShooter Concept
+0 Name: ZetaShooterConcept_TouchSensor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 1 0 -1 0 37312.dat
+1 4 0 -70 0 0 -1 0 -1 0 0 0 0 -1 32062.dat
+1 0 -20 20 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+1 0 20 20 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 STEP
+1 15 0 -94 0 0 0 1 0 1 0 -1 0 0 3941.dat
+1 0 0 -102 0 0 0 1 0 1 0 -1 0 0 15535.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_LeftMotor.ldr
+0 Motor Ass'y, Left, ZetaShooter Concept
+0 Name: ZetaShooterConcept_LeftMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaChariotConcept_Motor25Z.ldr
+1 71 0 -20 40 0 -1 0 1 0 0 0 0 1 65489.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 -20 -160 40 0 0 1 0 1 0 -1 0 0 55615.dat
+1 0 -20 -200 50 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
+1 71 0 -20 -40 0 -1 0 1 0 0 0 0 1 65489.dat
+1 71 20 -160 -40 1 0 0 0 1 0 0 0 1 65489.dat
+0 ROTSTEP END
+0
+0 FILE ZetaShooterConcept_RightMotor.ldr
+0 Motor Ass'y, Right, ZetaShooter Concept
+0 Name: ZetaShooterConcept_RightMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 ZetaChariotConcept_Motor25Z.ldr
+1 71 0 -20 40 0 -1 0 1 0 0 0 0 1 65489.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 20 -160 40 0 0 -1 0 1 0 1 0 0 55615.dat
+1 0 20 -200 50 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
+1 71 0 -20 -40 0 -1 0 1 0 0 0 0 1 65489.dat
+1 71 -20 -160 -40 1 0 0 0 1 0 0 0 1 65489.dat
+0 ROTSTEP END
+0
+0 FILE ZetaShooterConcept_WholeMotor.ldr
+0 Motor Ass'y, Whole, ZetaShooter Concept
+0 Name: ZetaShooterConcept_WholeMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 -1 0 1 0 54675.dat
+1 0 0 0 50 0 1 0 0 0 -1 -1 0 0 3705.dat
+1 4 0 0 80 1 0 0 0 -1 0 0 0 -1 49283.dat
+0 ROTSTEP 23 225 0 ABS
+1 4 0 0 -50 0 0 -1 0 -1 0 -1 0 0 32062.dat
+1 19 0 0 -60 -1 0 0 0 1 0 0 0 -1 18575.dat
+0 ROTSTEP END
+1 19 -80 60 -20 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_RightMotor.ldr
+1 19 0 60 -40 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_ArmGear.ldr
+0 STEP
+1 19 80 60 -20 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_LeftMotor.ldr
+0 STEP
+0
+0 FILE ZetaShooterConcept_Camera.ldr
+0 Camera Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Camera.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 14720.dat
+1 71 20 20 40 1 0 0 0 0 1 0 -1 0 55615.dat
+1 71 -20 20 40 1 0 0 0 0 1 0 -1 0 55615.dat
+0 STEP
+1 0 0 -20 20 0 0 -1 1 0 0 0 -1 0 64179.dat
+1 71 70 -40 20 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -70 -40 20 1 0 0 0 0 1 0 -1 0 32054.dat
+1 0 -20 10 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 20 10 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+0 STEP
+1 26 0 20 -40 0 0 -1 0 -1 0 -1 0 0 32316.dat
+1 0 -40 30 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 40 30 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+0 STEP
+1 0 0 0 -40 0 0 -1 1 0 0 0 -1 0 64179.dat
+1 71 70 -20 -40 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -70 -20 -40 1 0 0 0 0 1 0 -1 0 32054.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_Body.ldr
+0 Body Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_Body.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 1
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_Head.ldr
+1 0 90 -90 80 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 90 -114 112 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 -90 -90 80 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 -90 -114 112 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+0 STEP
+1 71 -100 -70 120 0 -1 0 0.6 0 0.8 -0.8 0 0.6 14720.dat
+1 0 -90 -26 128 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 -90 -50 160 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+0 STEP
+1 26 -80 -50 160 0 -1 0 -0.8 0 0.6 -0.6 0 -0.8 32525.dat
+1 0 -70 -98 224 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 -70 -110 240 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+0 STEP
+1 0 0 -114 212 1 0 0 0 0.6 0.8 0 -0.8 0.6 ZetaShooterConcept_Camera.ldr
+0 STEP
+1 0 70 -98 224 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 70 -110 240 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+0 STEP
+1 26 80 -50 160 0 -1 0 -0.8 0 0.6 -0.6 0 -0.8 32525.dat
+0 STEP
+1 0 90 -26 128 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+1 0 90 -50 160 1 0 0 0 0.8 -0.6 0 0.6 0.8 2780.dat
+0 STEP
+1 71 100 -70 120 0 -1 0 0.6 0 0.8 -0.8 0 0.6 14720.dat
+0 STEP
+0 
+0
+0 FILE ZZetaShooterConcept.ldr
+0 ZZetaShooter Concept
+0 Name: ZZetaShooterConcept.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0
+0 FILE ZZetaShooterConcept_FrontChassis.ldr
+0 Chassis Ass'y, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_FrontChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0
+0 FILE ZZetaShooterConcept_ArmGear.ldr
+0 Gear Ass'y, Arm, ZZetaShooterConcept
+0 Name: ZZetaShooterConcept_ArmGear.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 -40 0 0 1 0 1 0 -1 0 0 32073.dat
+1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 18575.dat
+0 STEP
+1 71 0 0 -20 0 0 -1 0 1 0 1 0 0 14720.dat
+1 1 -40 -20 -20 0 0 -1 -1 0 0 0 1 0 6558.dat
+1 1 40 -20 -20 0 0 -1 -1 0 0 0 1 0 6558.dat
+0 STEP
+1 71 0 0 -40 0 -1 0 -1 0 0 0 0 -1 3713.dat
+1 71 0 0 -60 0 1 0 -1 0 0 0 0 1 3713.dat
+1 0 0 0 -80 -1 0 0 0 1 0 0 0 -1 32270.dat
+0 STEP
+0
+0 FILE ZZetaShooterConcept_RearChassis.ldr
+0 Chassis Ass'y, Rear, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_RearChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 0 0 -9.971 160.037 0 0 1 0 -1 0 1 0 0 15458.dat
+1 0 -30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -30 -9.971 120.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 -9.971 120.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -30 -9.971 160.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 -9.971 160.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -40 -9.971 140.037 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 0 40 -9.971 140.037 1 0 0 0 -1 0 0 0 -1 18651.dat
+1 1 40 -9.971 220.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 1 -40 -9.971 220.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 1 0 10.029 240.037 1 0 0 0 1 0 0 0 1 ZZetaShooterConcept_Caster.ldr
+0 STEP
+1 322 -40 -9.971 220.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 322 40 -9.971 220.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 14 40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 1 60 -9.971 180.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 1 -60 -9.971 180.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 322 60 -9.971 200.037 1 0 0 0 -1 0 0 0 -1 11954.dat
+1 1 50 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 43093.dat
+0 ROTSTEP -23 -45 0 ABS
+1 71 60 -9.971 80.037 0 -1 0 0 0 -1 1 0 0 44874.dat
+1 0 60 -9.971 60.037 1 0 0 0 0 -1 0 1 0 18654.dat
+0 STEP
+1 1 60 -9.971 80.037 -1 0 0 0 0 -1 0 -1 0 6558.dat
+1 14 80 6 8 0 1 0 0.6 0 0.8 0.8 0 -0.6 32014.dat
+0 STEP
+1 322 0 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 EpsilonSpikerConcept_RearChassisJoint.ldr
+0 ROTSTEP END
+1 14 -40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 1 -50 6 8 -1 0 0 0 -0.8 0.6 0 0.6 0.8 43093.dat
+1 322 -60 -9.971 200.037 -1 0 0 0 -1 0 0 0 1 11954.dat
+0 STEP
+1 71 -60 -9.971 80.037 0 -1 0 0 0 -1 1 0 0 44874.dat
+1 0 -60 -9.971 60.037 1 0 0 0 0 -1 0 1 0 18654.dat
+0 STEP
+1 1 -60 -9.971 80.037 1 0 0 0 0 -1 0 1 0 6558.dat
+1 14 -80 6 8 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32014.dat
+0 STEP
+1 0 60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 60 -19.971 160.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 160.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 60 -19.971 120.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 120.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 1 80 -9.971 260.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 1 -80 -9.971 260.037 -1 0 0 0 -1 0 0 0 1 6558.dat
+0 STEP
+1 14 -80 -9.971 120.037 0 -1 0 -1 0 0 0 0 -1 60484.dat
+1 14 80 -9.971 120.037 0 -1 0 -1 0 0 0 0 -1 60484.dat
+1 322 80 -9.971 200.037 0 -1 0 -1 0 0 0 0 -1 32524.dat
+1 322 -80 -9.971 200.037 0 -1 0 -1 0 0 0 0 -1 32524.dat
+0 STEP
+1 1 -100 -9.971 200.037 -1 0 0 0 -1 0 0 0 1 6558.dat
+1 1 100 -9.971 200.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 0 -90 -9.971 140.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 -90 -9.971 120.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 -90 -9.971 100.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 90 -9.971 140.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 90 -9.971 120.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 90 -9.971 100.037 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
+1 0 100 -9.971 180.037 0 -1 0 1 0 0 0 0 1 40490.dat
+1 0 -100 -9.971 180.037 0 -1 0 1 0 0 0 0 1 40490.dat
+0 STEP
+1 4 -100 -9.971 160.037 -1 0 0 0 0 1 0 1 0 11214.dat
+1 4 100 -9.971 160.037 1 0 0 0 0 -1 0 1 0 11214.dat
+0 STEP
+1 71 60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 71 -60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 14 -60 -29.971 140.037 -1 0 0 0 1 0 0 0 -1 32523.dat
+1 14 60 -29.971 140.037 -1 0 0 0 1 0 0 0 -1 32523.dat
+0 STEP
+1 0 60 -39.971 140.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -39.971 140.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 322 0 -29.971 240.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+0 STEP
+1 322 0 -49.971 140.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+1 0 40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+0 STEP
+1 26 0 -109.971 240.037 0 0 -1 -1 0 0 0 1 0 39794.dat
+1 0 -110 -69.971 240.037 -1 0 0 0 0 1 0 1 0 2780.dat
+1 0 -110 -149.971 240.037 -1 0 0 0 0 1 0 1 0 2780.dat
+1 0 110 -69.971 240.037 -1 0 0 0 0 1 0 1 0 2780.dat
+1 0 110 -149.971 240.037 -1 0 0 0 0 1 0 1 0 2780.dat
+0 STEP
+1 0 120 -9.971 240.037 0 -1 0 0 0 1 -1 0 0 32009.dat
+1 0 -120 -9.971 240.037 0 -1 0 0 0 1 -1 0 0 32009.dat
+0 STEP
+1 26 0 -109.971 80.037 1 0 0 0 1 0 0 0 1 ZZetaShooterConcept_Bpillar.ldr
+0 STEP
+1 4 100 -29.971 80.037 -1 0 0 0 0 1 0 1 0 32054.dat
+1 4 100 10.029 80.037 -1 0 0 0 0 1 0 1 0 32054.dat
+1 4 -100 10.029 80.037 1 0 0 0 0 -1 0 1 0 32054.dat
+1 4 -100 -29.971 80.037 1 0 0 0 0 -1 0 1 0 32054.dat
+0 STEP
+1 1 -20 30.029 80.037 0 0 -1 0 1 0 1 0 0 6558.dat
+1 1 20 30.029 80.037 0 0 -1 0 1 0 1 0 0 6558.dat
+0 ROTSTEP -23 225 0 ABS
+1 15 0 30.029 40.037 0 1 0 0 0 -1 -1 0 0 37308.dat
+0 STEP
+0 ROTSTEP END
+0
+0 FILE ZZetaShooterConcept_Caster.ldr
+0 Caster Ass'y, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_Caster.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 -20 20 -20 0 -1 0 1 0 0 0 0 1 32524.dat
+1 1 0 20 40 1 0 0 0 1 0 0 0 1 6558.dat
+1 0 -30 20 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -30 20 0 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 0 20 -40 1 0 0 0 1 0 0 0 1 6558.dat
+0 STEP
+1 322 0 20 0 -1 0 0 0 1 0 0 0 -1 39370c01.dat
+1 0 0 10 -20 0 1 0 -1 0 0 0 0 1 2780.dat
+1 0 0 10 20 0 1 0 -1 0 0 0 0 1 2780.dat
+0 STEP
+1 0 0 20 -80 1 0 0 0 1 0 0 0 1 ZZetaShooterConcapt_CasterSuport.ldr
+0 STEP
+1 322 20 20 -20 0 -1 0 1 0 0 0 0 1 32524.dat
+0 STEP
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+0 STEP
+1 0 30 20 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 20 0 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 -20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+1 1 20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+0 STEP
+0
+0 FILE ZZetaShooterConcapt_CasterSuport.ldr
+0 Caster Suport Ass'y, ZZetaShooter Concept
+0 Name: ZZetaShooterConcapt_CasterSuport.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 32073.dat
+1 0 0 0 -20 -1 0 0 0 1 0 0 0 -1 42135.dat
+1 4 0 0 -40 0 -1 0 0 0 -1 1 0 0 11214.dat
+0 STEP
+1 0 0 0 -40 0 0 -1 0 1 0 1 0 0 32034.dat
+1 1 30 0 -40 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 1 -30 0 -40 1 0 0 0 1 0 0 0 1 43093.dat
+0 STEP
+1 14 0 0 -60 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
+0 
+0
+0 FILE ZZetaShooterConcept_RearChassisJoint.ldr
+0 Joint Ass'y, Chassis, Rear, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_RearChassisJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 -30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 -30 0 20 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 1 30 0 20 1 0 0 0 1 0 0 0 1 43093.dat
+0 STEP
+0 
+0 
+0
+0 FILE ZZetaShooterConcept_Bpillar.ldr
+0 B-Pillar Ass'y, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_Bpillar.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 1 0 0 0 0 -1 0 1 0 39790.dat
+1 0 40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 71 -100 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+1 71 100 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+0 STEP
+1 26 0 120 0 0 0 -1 0 1 0 1 0 0 32316.dat
+0 STEP
+1 0 20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+0 STEP
+0
+0 FILE ZZetaShooterConcept_FrontChassisJoint.ldr
+0 Joint Ass'y, Chassis, Front, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_FrontChassisJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 PreliminaryModel, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 -30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 -20 0 0 0 0 -1 -1 0 0 0 1 0 6558.dat
+1 0 0 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 1 20 0 0 0 0 -1 -1 0 0 0 1 0 6558.dat
+1 0 0 -10 20 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 1 0 0 -20 0 0 -1 -1 0 0 0 1 0 6558.dat
+0 STEP
+1 0 -60 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 60 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 -80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 60 10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 -60 10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0 FILE ZetaShooterConcept_BatterySupport.ldr
+0 Battery Support Ass'y, ZetaShooter Concept
+0 Name: ZetaShooterConcept_BatterySupport.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 0 0 1 0 1 0 -1 0 0 32316.dat
+1 19 -40 10 0 0 0 1 1 0 0 0 1 0 3749.dat
+1 19 40 10 0 0 0 1 1 0 0 0 1 0 3749.dat
+0 STEP
+1 0 -40 20 -20 0 -1 0 0 0 -1 1 0 0 45590.dat
+1 0 40 20 -20 0 -1 0 0 0 -1 1 0 0 45590.dat
+0 STEP
+1 19 40 30 -20 0 0 -1 -1 0 0 0 1 0 3749.dat
+1 19 -40 30 -20 0 0 -1 -1 0 0 0 1 0 3749.dat
+0 STEP
+0
+0 FILE ZZetaShooterConcept_BatterySupport.ldr
+0 Battery Support Ass'y, ZZetaShooter Concept
+0 Name: ZZetaShooterConcept_BatterySupport.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 0 0 1 0 1 0 -1 0 0 32316.dat
+1 1 -40 10 0 0 0 1 1 0 0 0 1 0 43093.dat
+1 1 40 10 0 0 0 1 1 0 0 0 1 0 43093.dat
+0 STEP
+1 0 -40 20 -20 0 -1 0 0 0 -1 1 0 0 45590.dat
+1 0 40 20 -20 0 -1 0 0 0 -1 1 0 0 45590.dat
+0 STEP
+1 1 40 30 -20 0 0 -1 -1 0 0 0 1 0 43093.dat
+1 1 -40 30 -20 0 0 -1 -1 0 0 0 1 0 43093.dat
+0 STEP
+0
+0 FILE ZetaShooterConcept_ApillarBodyJoint.ldr
+0 Joint Ass'y, A-pillar and Body, ZetaShooter Concept
+0 Name: ZetaShooterConcept_ApillarBodyJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Preliminary Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 0 1 0 -1 0 0 0 0 1 32184.dat
+1 71 -20 40 0 0 0 1 1 0 0 0 1 0 32073.dat
+1 19 20 10 0 0 0 1 -1 0 0 0 -1 0 3749.dat
+0 STEP
 0
 0
