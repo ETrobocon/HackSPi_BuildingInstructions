@@ -6,25 +6,41 @@
 # Zeta Platforms submodel structure
 
 ## ZZetaShooterConcept
-ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Rex"
+ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Tabby"
 - **ZZetaShooterConcept_FrontChassis**
-    - ? ZetaShooterConcept_Arm
+    - **ZZetaShooterConcept_Body**
+        - ZetaShooterConcept_Head
+        - **ZZetaShooterConcept_Camera**
+            - **ZZetaShooterConcept_CameraStay**
+            - **ZZetaShooterConcept_CameraSupport**
+        - **ZZetaShooterConcept_Arm**
     - **ZZetaShooterConcept_ArmGear**
-    - **ZZetaShooterConcept_ArmMotor**
+    - **ZetaShooterConcept_WholeMotor**
+        - **ZetaShooterConcept_LeftMotor**
+        - **ZetaShooterConcept_RightMotor**
+        - **ZZetaShooterConcept_Wheel**
+            - EpsilonSpikerConcept_WheelCap
     - ZetaChariotConcept_ApillarBodyJoint
-    - **ZZetaShooterConcept_FrontChassisJoint**
+    - EpsilonSpikerConcept_FrontChassisJoint
 - **ZZetaShooterConcept_RearChassis**
     - **ZZetaShooterConcept_Caster**
     - **ZZetaShooterConcept_CasterSupport**
     - **ZZetaShooterConcept_RearChassisJoint**
     - **ZZetaShooterConcept_Bpillar**
+- EpsilonSpikerConcept_RearChassisApillarJoint
+- **ZZetaShooterConcept_LeftUpperApillarBpillarJoint**
+- **ZZetaShooterConcept_RightUpperApillarBpillarJoint**
+- **ZZetaShooterConcept_LeftUnderApillarBpillarJoint**
+- **ZZetaShooterConcept_RightUnderApillarBpillarJoint**
 - **ZZetaShooterConcept_BatterySupport**
 
 
 ## ZetaShooterConcept
 ZetaShooter Concept ETR25ZM4/50ZM4 "HackSPi Dax"
 - **ZetaShooterConcept_FrontChassis**
-    - **ZetaShooterConcept_Head**
+    - **ZetaShooterConcept_Body**
+        - **ZetaShooterConcept_Head**
+        - **ZetaShooterConcept_Camera**
     - **ZetaShooterConcept_Arm**
         - **ZetaShooterConcept_ColorSensor**
     - **ZetaShooterConcept_ArmGear**
