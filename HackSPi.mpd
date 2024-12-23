@@ -1,3 +1,24 @@
+0 FILE HackSPi_DachsM5.ldr
+0 HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RearChassis.ldr
+1 0 0 0 0 1 0 0 0 0.8 0.6 0 -0.6 0.8 HackSPi_DachsM5_FrontChassis.ldr
+0 STEP
+1 0 0 -342 -56 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_FrontCamera.ldr
+1 26 -100 -282 -96 0 1 0 0 0 -1 -1 0 0 32316.dat
+1 26 100 -282 -96 0 1 0 0 0 -1 -1 0 0 32316.dat
+0 STEP
+1 26 120 -110 -80 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftUnderApillarBpillarJoint.ldr
+1 26 -120 -110 -80 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightUnderApillarBpillarJoint.ldr
+0 STEP
+1 26 140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftUpperApillarBpillarJoint.ldr
+1 26 -140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightUpperApillarBpillarJoint.ldr
+0 STEP
+0
 0 FILE ZZetaShooterConcept.ldr
 0 ZZetaShooter Concept
 0 Name: ZZetaShooterConcept.ldr
@@ -9332,5 +9353,636 @@
 0 ROTATION CONFIG 0 0
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 62462.dat
 1 19 -10 0 0 1 0 0 0 1 0 0 0 1 32556.dat
+0 
+0
+0 FILE HackSPi_DachsM5_RearChassis.ldr
+0 Chassis Ass'y, Rear, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RearChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -9.971 160.037 0 0 1 0 -1 0 1 0 0 15458.dat
+1 0 -30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 -9.971 100.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 1 40 -9.971 180.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 1 -40 -9.971 180.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 1 0 10.029 240.037 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Caster.ldr
+0 STEP
+1 0 -40 -9.971 240.037 0 1 0 1 0 0 0 0 -1 40490.dat
+1 0 40 -9.971 240.037 0 1 0 1 0 0 0 0 -1 40490.dat
+0 STEP
+1 14 0 -9.971 140.037 1 0 0 0 -1 0 0 0 -1 23948.dat
+1 14 40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 322 60 -9.971 200.037 1 0 0 0 -1 0 0 0 -1 11954.dat
+1 19 50 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 3749.dat
+0 STEP
+1 14 80 6 8 0 1 0 0.6 0 0.8 0.8 0 -0.6 32014.dat
+1 0 70 -9.971 260.037 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 1 80 -9.971 220.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+0 STEP
+1 322 80 -9.971 200.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 322 0 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 EpsilonSpikerConcept_RearChassisJoint.ldr
+0 ROTSTEP END
+1 0 100 -9.971 160.037 1 0 0 0 -1 0 0 0 -1 18651.dat
+1 1 100 -9.971 200.037 1 0 0 0 -1 0 0 0 -1 6558.dat
+1 14 -40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+0 STEP
+1 19 -50 6 8 -1 0 0 0 -0.8 0.6 0 0.6 0.8 3749.dat
+0 STEP
+1 14 -80 6 8 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32014.dat
+1 71 0 -9.971 220.037 1 0 0 0 -1 0 0 0 -1 32073.dat
+1 71 0 -9.971 120.037 1 0 0 0 -1 0 0 0 -1 32073.dat
+0 STEP
+1 322 -60 -9.971 200.037 -1 0 0 0 -1 0 0 0 1 11954.dat
+0 STEP
+1 0 -70 -9.971 260.037 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 1 -80 -9.971 220.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 322 -80 -9.971 200.037 0 1 0 1 0 0 0 0 -1 32524.dat
+0 STEP
+1 0 -100 -9.971 160.037 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 1 -100 -9.971 200.037 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 0 60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 280.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -60 -19.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 71 -60 -29.971 140.037 -1 0 0 0 0 -1 0 -1 0 65489.dat
+1 71 60 -29.971 140.037 -1 0 0 0 0 -1 0 -1 0 65489.dat
+0 STEP
+1 71 60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 71 -60 -29.971 280.037 0 -1 0 -1 0 0 0 0 -1 32013.dat
+1 322 0 -49.971 120.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+1 322 0 -49.971 160.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+1 322 0 -29.971 240.037 0 0 -1 0 -1 0 -1 0 0 32524.dat
+0 STEP
+1 0 40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+1 0 -40 -39.971 240.037 0 -1 0 -1 0 0 0 0 -1 2780.dat
+0 STEP
+1 26 0 -109.971 240.037 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Cpillar.ldr
+0 STEP
+1 26 0 -109.971 80.037 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Bpillar.ldr
+0 STEP
+1 322 100 -9.971 160.037 0 1 0 1 0 0 0 0 -1 32524.dat
+1 322 -100 -9.971 160.037 0 1 0 1 0 0 0 0 -1 32524.dat
+0 STEP
+1 0 120 -9.971 240.037 0 -1 0 0 0 1 -1 0 0 32009.dat
+1 0 -120 -9.971 240.037 0 -1 0 0 0 1 -1 0 0 32009.dat
+0 STEP
+1 26 0 -229.971 120.037 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_TouchSensor.ldr
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Caster.ldr
+0 Caster Ass'y, HackSPi Dachs25Z M5
+0 Name: HackSPi_DachsM5_Caster.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 -20 20 -40 0 1 0 -1 0 0 0 0 1 32526.dat
+1 0 -30 -20 40 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -30 20 0 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 0 20 -40 1 0 0 0 1 0 0 0 1 6558.dat
+1 1 -20 20 40 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 322 0 20 0 -1 0 0 0 1 0 0 0 -1 39370c01.dat
+1 0 0 10 -20 0 1 0 -1 0 0 0 0 1 2780.dat
+1 0 0 10 20 0 1 0 -1 0 0 0 0 1 2780.dat
+1 1 20 20 0 1 0 0 0 1 0 0 0 1 6558.dat
+0 STEP
+1 322 20 20 -40 0 1 0 -1 0 0 0 0 1 32526.dat
+1 0 30 20 40 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 -20 40 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+0 STEP
+1 1 -20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+1 1 20 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Cpillar.ldr
+0 C Pillar Ass'y, HaskSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Cpillar.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 0 0 -1 -1 0 0 0 1 0 39794.dat
+1 0 -110 -40 0 1 0 0 0 0 1 0 -1 0 2780.dat
+1 0 -110 0 0 1 0 0 0 0 1 0 -1 0 2780.dat
+1 0 110 -40 0 1 0 0 0 0 1 0 -1 0 2780.dat
+1 0 110 0 0 1 0 0 0 0 1 0 -1 0 2780.dat
+0 STEP
+0 STEP
+0
+0 FILE HackSPi_DachsM5_RearCamera.ldr
+0 Camera Ass'y, Rear, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RearCamera.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -40 -4 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 14 40 -4 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 15 0 -4 20 0 0 -1 0 1 0 1 0 0 3941.dat
+0 STEP
+1 322 -20 -12 20 1 0 0 0 1 0 0 0 1 4032a.dat
+1 322 20 -12 20 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+1 4 -40 -36 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 4 40 -36 0 0 0 -1 0 1 0 1 0 0 39789.dat
+1 15 0 -36 20 0 0 -1 0 1 0 1 0 0 3941.dat
+0 STEP
+1 0 -40 0 -20 0 0 1 1 0 0 0 1 0 3705.dat
+1 0 40 0 -20 0 0 1 1 0 0 0 1 0 3705.dat
+0 STEP
+1 14 40 50 -20 -1 0 0 0 0 1 0 1 0 32014.dat
+1 14 -40 50 -20 -1 0 0 0 0 1 0 1 0 32014.dat
+0 STEP
+1 0 -40 50 -60 0 0 -1 0 1 0 1 0 0 18651.dat
+1 0 40 50 -60 0 0 -1 0 1 0 1 0 0 18651.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Bpillar.ldr
+0 B Pillar Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Bpillar.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 1 0 0 0 0 -1 0 1 0 39790.dat
+1 0 40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -40 130 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 90 120 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 90 80 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -90 120 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -90 80 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 80 -150 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 0 -150 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 71 -60 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+1 71 60 -140 20 0 1 0 0 0 -1 -1 0 0 32054.dat
+0 STEP
+1 0 -80 100 40 0 1 0 1 0 0 0 0 -1 60484.dat
+1 0 80 100 40 0 1 0 1 0 0 0 0 -1 60484.dat
+1 26 0 120 0 0 0 -1 0 1 0 1 0 0 32316.dat
+1 322 80 -160 0 0 0 -1 0 -1 0 -1 0 0 32526.dat
+0 STEP
+1 0 20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 -20 110 0 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 90 100 40 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 90 100 20 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 -90 100 40 -1 0 0 0 -1 0 0 0 1 2780.dat
+1 0 -90 100 20 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_TouchSensor.ldr
+0 Sensor Ass'y, Touch, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_TouchSensor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 1 0 -1 0 37312.dat
+1 4 0 -70 0 0 -1 0 -1 0 0 0 0 -1 32062.dat
+1 0 -20 -20 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+1 0 20 -20 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 STEP
+1 15 0 -94 0 0 0 1 0 1 0 -1 0 0 3941.dat
+1 0 0 -102 0 0 0 1 0 1 0 -1 0 0 15535.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_FrontChassis.ldr
+0 Chassis Ass'y, Front, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_FrontChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -10 1 0 0 0 0 1 0 -1 0 HackSPi_DachsM5_FrontChassisJoint.ldr
+1 26 0 20 -10 0 0 1 -1 0 0 0 -1 0 39794.dat
+1 0 90 -60 -10 0 0 1 -1 0 0 0 -1 0 18651.dat
+0 STEP
+1 71 100 -20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 100 20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -100 -20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+1 71 -100 20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+1 4 90 -60 -10 1 0 0 0 0 1 0 -1 0 49283.dat
+0 STEP
+1 71 0 40 -50 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_WholeMotor.ldr
+0 STEP
+1 322 0 -60 -130 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Apillar.ldr
+0 STEP
+1 0 0 -40 -120 1 0 0 0 0 -1 0 1 0 HackSPi_DachsM5_Body.ldr
+0 STEP
+1 0 60 -220 -130 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 0 -60 -220 -130 -1 0 0 0 1 0 0 0 -1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 26 40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+1 26 -40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Body.ldr
+0 Body Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Body.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Head.ldr
+1 0 -70 -50 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 -70 -30 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 70 -50 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 70 -30 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 0 80 -50 -120 0 -1 0 1 0 0 0 0 1 60484.dat
+1 0 -80 -50 -120 0 -1 0 1 0 0 0 0 1 60484.dat
+1 0 90 -50 -100 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 90 -50 -120 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -90 -50 -100 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -90 -50 -120 1 0 0 0 -1 0 0 0 -1 2780.dat
+0 STEP
+1 0 0 -50 -140 1 0 0 0 0 1 0 -1 0 HackSPi_DachsM5_Arm.ldr
+0 STEP
+1 14 100 -50 -120 0 1 0 -1 0 0 0 0 1 32523.dat
+1 14 -100 -50 -120 0 1 0 -1 0 0 0 0 1 32523.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Head.ldr
+0 Head Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Head.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 45601p02.dat
+1 19 70 -30.001 80 1 0 0 0 -1 0 0 0 -1 3749.dat
+1 0 70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 0 80 -30.001 80 0 -1 0 0 0 -1 1 0 0 32348.dat
+0 STEP
+1 19 70 -126 128 1 0 0 0 -0.6 -0.8 0 0.8 -0.6 3749.dat
+1 1 80 -102 96 1 0 0 0 0.6 0.8 0 -0.8 0.6 6558.dat
+1 0 90 -114 112 1 0 0 0 0.6 0.8 0 -0.8 0.6 2780.dat
+0 STEP
+1 15 0 -114 112 1 0 0 0 0.6 0.8 0 -0.8 0.6 37316.dat
+0 STEP
+1 19 -70 -126 128 -1 0 0 0 -0.6 0.8 0 0.8 0.6 3749.dat
+1 0 -70 -114 112 1 0 0 0 0.6 0.8 0 -0.8 0.6 2780.dat
+1 1 -80 -102 96 -1 0 0 0 -0.6 0.8 0 0.8 0.6 6558.dat
+1 19 -70 -30.001 80 -1 0 0 0 -1 0 0 0 1 3749.dat
+1 0 -70 -50 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 ROTSTEP 23 -45 0 ABS
+1 0 -80 -30.001 80 0 -1 0 0 0 -1 1 0 0 32348.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_FrontCamera.ldr
+0 Camera Ass'y, Front, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_FrontCamera.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 14720.dat
+1 71 20 20 40 1 0 0 0 0 1 0 -1 0 55615.dat
+1 71 -20 20 40 1 0 0 0 0 1 0 -1 0 55615.dat
+0 STEP
+1 14 0 0 80 0 0 -1 0 1 0 1 0 0 32523.dat
+0 STEP
+1 0 0 -20 20 0 0 -1 1 0 0 0 -1 0 64179.dat
+1 71 70 -40 20 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -70 -40 20 1 0 0 0 0 1 0 -1 0 32054.dat
+1 0 -20 10 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 20 10 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 70 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -70 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 26 0 20 -40 0 0 -1 0 -1 0 -1 0 0 32316.dat
+1 0 -40 30 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+1 0 40 30 -40 0 0 -1 1 0 0 0 -1 0 2780.dat
+0 STEP
+1 0 0 0 -40 0 0 -1 1 0 0 0 -1 0 64179.dat
+1 71 70 -20 -40 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -70 -20 -40 1 0 0 0 0 1 0 -1 0 32054.dat
+1 0 -70 0 -40 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 70 0 -40 1 0 0 0 1 0 0 0 1 2780.dat
+1 1 80 20 -40 1 0 0 0 0 -1 0 1 0 6558.dat
+1 1 -80 20 -40 -1 0 0 0 0 1 0 1 0 6558.dat
+0 STEP
+1 322 -80 0 40 0 1 0 1 0 0 0 0 -1 32526.dat
+1 322 80 0 40 0 1 0 1 0 0 0 0 -1 32526.dat
+0 STEP
+1 0 -90 40 -40 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 90 40 -40 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_ColorSensor.ldr
+0 Sensor Ass'y, Color, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_ColorSensor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 20 0 1 0 0 0 0 -1 0 1 0 37308.dat
+1 0 -20 10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 20 10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 39793.dat
+1 0 40 0 -20 1 0 0 0 0 -1 0 1 0 18651.dat
+1 0 -40 0 -20 -1 0 0 0 0 -1 0 -1 0 18651.dat
+0 STEP
+1 15 40 0 0 -1 0 0 0 0 -1 0 -1 0 32184.dat
+1 15 -40 0 0 -1 0 0 0 0 -1 0 -1 0 32184.dat
+1 71 60 0 20 -1 0 0 0 0 -1 0 -1 0 32073.dat
+1 71 -60 0 20 -1 0 0 0 0 -1 0 -1 0 32073.dat
+0 STEP
+1 322 60 0 20 0 1 0 0 0 -1 -1 0 0 60483.dat
+1 322 -60 0 20 0 1 0 0 0 -1 -1 0 0 60483.dat
+1 1 -60 0 -20 0 0 1 -1 0 0 0 -1 0 49283.dat
+1 1 60 0 -20 0 0 1 -1 0 0 0 -1 0 49283.dat
+1 0 70 -20 20 -1 0 0 0 0 -1 0 -1 0 2780.dat
+1 0 -70 -20 20 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Arm.ldr
+0 Arm Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Arm.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 0.8 -0.6 0 0.6 0.8 23948.dat
+1 71 0 0 0 0 0 -1 -0.6 0.8 0 0.8 0.6 0 3713.dat
+0 STEP
+1 71 -20 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 3713.dat
+1 0 20 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 32270.dat
+0 STEP
+1 71 -40 0 0 1 0 0 0 0 1 0 -1 0 32013.dat
+1 71 40 0 0 1 0 0 0 0 1 0 -1 0 32013.dat
+1 19 -40 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 19 40 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 71 60 0 0 0 0 -1 -0.6 0.8 0 0.8 0.6 0 3713.dat
+1 71 -60 0 0 0 0 1 0.6 0.8 0 -0.8 0.6 0 3713.dat
+0 STEP
+1 0 -80 64 48 0 1 0 -0.8 0 -0.6 -0.6 0 0.8 32009.dat
+0 STEP
+1 0 0 44 8 1 0 0 0 0.8 -0.6 0 0.6 0.8 HackSPi_DachsM5_ColorSensor.ldr
+0 STEP
+1 0 80 64 48 0 1 0 -0.8 0 -0.6 -0.6 0 0.8 32009.dat
+0 STEP
+1 14 -100 32 24 0 0 1 0.6 0.8 0 -0.8 0.6 0 49283.dat
+1 14 100 32 24 0 0 1 0.6 0.8 0 -0.8 0.6 0 49283.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_LeftUpperApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Upper, Left, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_LeftUpperApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -20 16 -32 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32523.dat
+1 0 -20 32 -44 1 0 0 0 0.6 -0.8 0 0.8 0.6 18651.dat
+1 1 -20 0 -20 1 0 0 0 0.6 -0.8 0 0.8 0.6 6558.dat
+0 STEP
+1 14 0 0 100 0 1 0 1 0 0 0 0 -1 32271.dat
+1 1 -20 0 80 -1 0 0 0 1 0 0 0 -1 6558.dat
+1 19 -10 0 100 1 0 0 0 1 0 0 0 1 3749.dat
+0 STEP
+1 14 -20 -60 80 0 1 0 0 0 1 1 0 0 32140.dat
+1 0 -30 -40 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_RightUpperApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Upper, Right, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RightUpperApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 20 16 -32 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32523.dat
+1 0 20 32 -44 -1 0 0 0 0.6 -0.8 0 0.8 0.6 18651.dat
+1 1 20 0 -20 -1 0 0 0 0.6 -0.8 0 0.8 0.6 6558.dat
+0 STEP
+1 14 0 0 100 0 1 0 1 0 0 0 0 -1 32271.dat
+1 1 20 0 80 1 0 0 0 1 0 0 0 1 6558.dat
+1 19 10 0 100 -1 0 0 0 1 0 0 0 -1 3749.dat
+0 STEP
+1 14 20 -60 80 0 1 0 0 0 1 1 0 0 32140.dat
+1 0 30 -40 80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_LeftUnderApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Under, Left, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_LeftUnderApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 60 0 1 0 1 0 0 0 0 -1 32348.dat
+1 0 -10 16 -12 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 2780.dat
+1 19 -10 48 -36 1 0 0 0 0.6 -0.8 0 0.8 0.6 3749.dat
+1 0 10 0 40 1 0 0 0 1 0 0 0 1 2780.dat
+1 19 10 0 60 -1 0 0 0 1 0 0 0 -1 3749.dat
+0 STEP
+1 0 20 0 120 0 -1 0 -1 0 0 0 0 -1 40490.dat
+1 1 0 0 160 -1 0 0 0 1 0 0 0 -1 6558.dat
+1 0 10 0 180 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 14 0 60 160 0 -1 0 0 0 -1 1 0 0 32140.dat
+1 0 -10 40 160 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_RightUnderApillarBpillarJoint.ldr
+0 Joint Ass'y, A-Pillar and B-Pillar, Under, Right, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RightUnderApillarBpillarJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 60 0 1 0 1 0 0 0 0 -1 32348.dat
+1 0 10 16 -12 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 2780.dat
+1 19 10 48 -36 -1 0 0 0 0.6 0.8 0 0.8 -0.6 3749.dat
+1 0 -10 0 40 1 0 0 0 1 0 0 0 1 2780.dat
+1 19 -10 0 60 1 0 0 0 1 0 0 0 1 3749.dat
+0 STEP
+1 0 -20 0 120 0 -1 0 -1 0 0 0 0 -1 40490.dat
+1 1 0 0 160 1 0 0 0 1 0 0 0 1 6558.dat
+1 0 -10 0 180 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+1 14 0 60 160 0 -1 0 0 0 -1 1 0 0 32140.dat
+1 0 10 40 160 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_WholeMotor.ldr
+0 Motor Ass'y, Whole, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_WholeMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 -1 0 1 0 54675.dat
+1 0 0 0 50 0 1 0 0 0 -1 -1 0 0 3705.dat
+1 4 0 0 80 1 0 0 0 -1 0 0 0 -1 49283.dat
+0 ROTSTEP 23 225 0 ABS
+1 4 0 0 -50 0 0 -1 0 -1 0 -1 0 0 32062.dat
+1 19 0 0 -60 -1 0 0 0 1 0 0 0 -1 18575.dat
+1 1 -40 -80 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 40 -80 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+0 ROTSTEP END
+1 26 0 -80 -40 0 0 1 -1 0 0 0 -1 0 32316.dat
+1 26 40 60 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftMotorJoint.ldr
+1 26 -40 60 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightMotorJoint.ldr
+0 STEP
+1 19 -80 60 -20 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightMotor.ldr
+1 19 0 60 -40 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_ArmGearSupport.ldr
+0 STEP
+1 19 80 60 -20 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftMotor.ldr
+0 STEP
+1 26 0 40 20 0 0 1 1 0 0 0 1 0 32525.dat
+0 ROTSTEP 23 225 0 ABS
+1 26 0 -80 -60 0 0 1 1 0 0 0 1 0 32525.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_LeftMotor.ldr
+0 Motor Ass'y, Left, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_LeftMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaChariotConcept_Motor25Z.ldr
+1 1 20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 1 -20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 -20 -160 40 0 0 1 0 1 0 -1 0 0 55615.dat
+1 0 -20 -200 50 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
+1 1 -20 -20 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 20 -20 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 1 20 -140 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 0 -20 -140 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 ROTSTEP END
+1 14 0 -20 -40 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_RightMotor.ldr
+0 Motor Ass'y, Right, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RightMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025.
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 ZetaChariotConcept_Motor25Z.ldr
+1 1 20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 1 -20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 20 -160 40 0 0 -1 0 1 0 1 0 0 55615.dat
+1 0 20 -200 50 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
+1 1 20 -20 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 -20 -20 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 1 -20 -140 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 0 20 -140 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 ROTSTEP END
+1 14 0 -20 -40 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_ArmGear.ldr
+0 Gear Ass'y, Arm, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_ArmGear.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -30 0 0 1 0 1 0 -1 0 0 3705.dat
+1 71 0 0 -20 1 0 0 0 1 0 0 0 1 46372.dat
+0 STEP
+1 71 0 0 -40 0 0 1 1 0 0 0 1 0 44874.dat
+1 0 0 0 -60 -1 0 0 0 1 0 0 0 -1 32270.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_ArmGearSupport.ldr
+0 Gear Support Ass'y, Arm, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_ArmGearSupport.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 32034.dat
+1 0 40 0 0 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 0 -40 0 0 1 0 0 0 1 0 0 0 1 18651.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_Apillar.ldr
+0 A-Pillar Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_Apillar.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 0 0 1 0 0 0 0 -1 0 1 0 39790.dat
+1 0 -40 130 0 0 0 1 1 0 0 0 1 0 2780.dat
+1 0 40 130 0 0 0 1 1 0 0 0 1 0 2780.dat
+0 STEP
+1 0 0 160 40 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_ArmGear.ldr
+0 STEP
+0
+0 FILE HackSPi_DachsM5_LeftMotorJoint.ldr
+0 Joint Ass'y, Left Motor and Arm Motor, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_LeftMotorJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 0 1 0 -1 0 32014.dat
+1 19 0 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 0 10 0 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM5_RightMotorJoint.ldr
+0 Joint Ass'y, Right Motor and Arm Motor, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_RightMotorJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 0 1 0 -1 0 32014.dat
+1 19 0 -30 0 0 0 -1 1 0 0 0 -1 0 3749.dat
+1 0 -10 0 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
+0 
+0 
+0
+0 FILE HackSPi_DachsM5_FrontChassisJoint.ldr
+0 Joint Ass'y, Chassis, Front, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_FrontChassisJoint.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 -30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 -20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 30 0 20 1 0 0 0 1 0 0 0 1 2780.dat
+1 0 -20 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 20 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 0 -10 20 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 0 -10 -20 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+1 0 -60 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 60 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
+1 0 80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+1 0 -80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
 0
 0

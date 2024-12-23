@@ -5,6 +5,37 @@
 
 # Zeta Platforms submodel structure
 
+## HackSPi_DachsM5
+HackSPi dachs (ZetaShooter) ETR25ZM5
+- **HackSPi_DachsM5_FrontChassis**
+    - **HackSPi_DachsM5_Body**
+        - **HackSPi_DachsM5_Head**
+        - **HackSPi_DachsM5_Arm**
+            - **HackSPi_DachsM5_ColorSensor**
+    - **HackSPi_DachsM5_FrontCamera**
+    - **HackSPi_DachsM5_WholeMotor**
+        - **HackSPi_DachsM5_LeftMotorJoint**
+        - **HackSPi_DachsM5_RightMotorJoint**
+            - ZetaChariotConcept_Motor25Z
+        - **HackSPi_DachsM5_RightMotor**
+            - ZetaChariotConcept_Motor25Z
+        - **HackSPi_DachsM5_ArmGearSupport**
+    - **HackSPi_DachsM5_Apillar**
+        - **HackSPi_DachsM5_ArmGear**
+    - ZetaShooterConcept_ApillarBodyJoint
+    - **HackSPi_DachsM5_FrontChassisJoint**
+- **HackSPi_DachsM5_RearChassis**
+    - **HackSPi_DachsM5_Caster**
+    - EpsilonSpikerConcept_RearChassisJoint
+    - **HackSPi_DachsM5_Cpillar**
+        - ~~**HackSPi_DachsM5_RearCamera~~
+    - **HackSPi_DachsM5_Bpillar**
+    - **HackSPi_DachsM5_TouchSensor**
+- **HackSPi_DachsM5_LeftUpperApillarBpillarJoint**
+- **HackSPi_DachsM5_RightUpperApillarBpillarJoint**
+- **HackSPi_DachsM5_LeftUnderApillarBpillarJoint**
+- **HackSPi_DachsM5_RightUnderApillarBpillarJoint**
+
 ## ZZetaShooterConcept
 ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Tabby"
 - **ZZetaShooterConcept_FrontChassis**
@@ -17,7 +48,9 @@ ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Tabby"
     - **ZZetaShooterConcept_ArmGear**
     - **ZetaShooterConcept_WholeMotor**
         - **ZetaShooterConcept_LeftMotor**
+            - ZetaChariotConcept_Motor25Z
         - **ZetaShooterConcept_RightMotor**
+            - ZetaChariotConcept_Motor25Z
         - **ZZetaShooterConcept_Wheel**
             - EpsilonSpikerConcept_WheelCap
     - ZetaChariotConcept_ApillarBodyJoint
