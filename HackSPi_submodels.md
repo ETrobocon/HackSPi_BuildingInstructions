@@ -35,6 +35,7 @@ HackSPi dachs (ZetaShooter) ETR25ZM5
 - **HackSPi_DachsM5_RightUpperApillarBpillarJoint**
 - **HackSPi_DachsM5_LeftUnderApillarBpillarJoint**
 - **HackSPi_DachsM5_RightUnderApillarBpillarJoint**
+- **HackSPi_DachsM5_AdjustableWeight**
 
 ## ZZetaShooterConcept
 ZZetaShooter Concept ETR40ZZM4/80ZZM4 "HackSPi Tabby"
@@ -269,32 +270,3 @@ EpsilonSpiker Concept ETR50ESM1
 - EpsilonSpikerConcept_RightRearChassisCpillarJoint
 - EpsilonSpikerConcept_LeftApillarCpillarJoint
 - EpsilonSpikerConcept_RightApillarCpillarJoint
-
-# Modeling Tricks
-- Settings→Rotation PointからWorld Originを選択して、FrontChassisとRearChassisは、(0,0,0)で接合させる。完成後、最終的にはWorld Originを、ArrowはRearChassisのベースフレーム中央へ、Arrowなしはモータの回転軸（FrontChassisのPartsOrigin）に設定したい。
-
-- FrontChassisの接合点(WorldOrigin)は(0,50,20)なので、PartsOriginをWorldOriginの(0,-50,-20)に置いてからX軸をcosΘ回す。
-    - `Y=-SIN(ATAN(50/20)-ACOS(cosΘ))*SQRT(20*20+50*50)`
-    - `Z=-COS(ATAN(50/20)-ACOS(cosΘ))*SQRT(20*20+50*50)`
-- 接合させるにはcosΘ=0.6回すので、この時のPartsOrigin座標は、(0,-14,-52)となる。
-- 一方、ねじって接合させるのに回す角度は45度。これはMLCadのボタン操作でよい。
-
-- RearChassisはEpsilonSpikerではジョイント中央をPartsOriginに設定してしまったが、これを接合面に、cosΘ=0.8立ててからZを-10して修正しておく。この時のベースフレームの中央座標は(0,-9.971,160.037)で、上部を組み立てる際には端数分(0,-0.029,-0.037)移動させて行う。
-
-- Rear Chassis/C Pillarジョイントを打った後で、ここまでの４Ass'yをそれぞれ別々にWorld Originで回す。
-    - FrontChassisはボタンで45度回す
-    - RearChassisは単位行列に戻す
-    - RearChassisCpillarJointもボタンで45度回す。
-- RearChassisにあわせて全体を(0,-0.029,-0.037)移動させる
-- ねじってRoofとの帳尻をあわせるため、RearChassisのみ(0,19.971,9.963)へ移動させる。
-- M4のA-Cジョイントは寸法的にぴったりは絶対あわない。17度回転、RotationPointは(-130,-140,250)
-- M4の首部は、シャシーとのマウント部Vビームの谷底のホールを最終的なWorld Originにする。
-    - 後転36.87°の回転行列は、[ 1 0 0 ][ 0 0.8  0.6 ][ 0 -0.6 0.8 ] 1 0 0 0 0.8 0.6 0 -0.6 0.8
-    - 前転36.87°の回転行列は、[ 1 0 0 ][ 0 0.8 -0.6 ][ 0  0.6 0.8 ] 1 0 0 0 0.8 -0.6 0 0.6 0.8
-    - 前転53.13°の回転行列は、[ 1 0 0 ][ 0 0.6 -0.8 ][ 0  0.8 0.6 ] 1 0 0 0 0.6 -0.8 0 0.8 0.6
-    1 0 0 0 0.990268 0.139173 0 -0.139173 0.990268
-
-
-# LPub3D Technics
-- LPub3Dは動作が不安定で、元のファイルを頻繁に壊すので、LPubメタコマンドはLPub上で配置してからセーブせずメタコマンドのみをコピーし、VSCode上で編集した方が良い。
-- 1:1のモデルでは`0 !LPUB MULTI_STEP ASSEM MODEL_SCALE LOCAL  0.9362`を使う

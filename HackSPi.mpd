@@ -18,6 +18,9 @@
 1 26 140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftUpperApillarBpillarJoint.ldr
 1 26 -140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightUpperApillarBpillarJoint.ldr
 0 STEP
+1 26 60 -200 240 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_AdjustableWeight.ldr
+1 26 -60 -200 240 -1 0 0 0 1 0 0 0 -1 HackSPi_DachsM5_AdjustableWeight.ldr
+0 STEP
 0
 0 FILE ZZetaShooterConcept.ldr
 0 ZZetaShooter Concept
@@ -9983,6 +9986,23 @@
 1 0 60 0 0 1 0 0 0 -1 0 0 0 -1 39793.dat
 1 0 80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
 1 0 -80 -10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+0 
+0
+0 FILE HackSPi_DachsM5_AdjustableWeight.ldr
+0 Adjustable Weight Ass'y, HackSPi dachs25Z M5
+0 Name: HackSPi_DachsM5_AdjustableWeight.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2025
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 26 0 -4 0 1 0 0 0 1 0 0 0 1 39789.dat
+1 0 -20 10 0 0 0 -1 -1 0 0 0 1 0 18651.dat
+1 0 20 10 0 0 0 -1 -1 0 0 0 1 0 18651.dat
+0 STEP
+1 322 -20 -12 0 0 0 -1 0 1 0 1 0 0 4032a.dat
+0 STEP
+1 0 -20 -20 0 0 0 -1 0 1 0 1 0 0 15535.dat
 0 STEP
 0
 0
