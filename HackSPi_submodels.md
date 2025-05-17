@@ -5,6 +5,15 @@
 
 # Zeta Platforms submodel structure
 
+## HackSPi_DachsM5_Arrow
+HackSPi dachs (ZetaShooter) ETR25ZM5 w/Arrow
+- **HackSPi_DachsM5_RearChassis_Arrow**
+    - **HackSPi_DachsM5_Caster_Arrow**
+    - EpsilonSpikerConcept_RearChassisJoint
+    - HackSPi_DachsM5_Cpillar
+    - HackSPi_DachsM5_Bpillar
+    - HackSPi_DachsM5_TouchSensor
+
 ## HackSPi_DachsM5
 HackSPi dachs (ZetaShooter) ETR25ZM5
 - **HackSPi_DachsM5_FrontChassis**
