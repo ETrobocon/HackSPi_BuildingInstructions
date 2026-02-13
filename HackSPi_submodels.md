@@ -5,6 +5,61 @@
 
 # Zeta Platforms submodel structure
 
+## ReHackSM6
+Re-Hacks (ZetaRefined) ETRR25ZM6
+- **ReHackSM6_FrontChassis**
+    - **ReHackSM6_Body**
+        - ZetaShooterConcept_Head
+        - HackSPi_DachsM5_Arm
+            - HackSPi_DachsM5_ColorSensor
+    - HackSPi_DachsM6_WholeMotor
+        - HackSPi_DachsM5_LeftMotorJoint
+        - HackSPi_DachsM5_RightMotorJoint
+        - HackSPi_DachsM6_LeftMotor
+            - ZetaChariotConcept_Motor25Z
+        - HackSPi_DachsM6_RightMotor
+            - ZetaChariotConcept_Motor25Z
+        - HackSPi_DachsM5_ArmGearSupport
+    - HackSPi_DachsM5_Apillar
+        - HackSPi_DachsM5_ArmGear
+    - ZetaShooterConcept_ApillarBodyJoint
+    - HackSPi_DachsM5_FrontChassisJoint
+- **ReHackSM6_RearChassis**
+    - **ReHackSM6_TouchSensor**
+    - EpsilonSpikerConcept_RearChassisJoint
+
+## HackSPi_DachsM6
+HackSPi dachs (ZetaShooter) ETR25ZM6
+- **HackSPi_DachsM6_FrontChassis**
+    - HackSPi_DachsM5_Body
+        - HackSPi_DachsM5_Head
+        - HackSPi_DachsM5_Arm
+            - HackSPi_DachsM5_ColorSensor
+    - HackSPi_DachsM5_FrontCamera
+    - **HackSPi_DachsM6_WholeMotor**
+        - HackSPi_DachsM5_LeftMotorJoint
+        - HackSPi_DachsM5_RightMotorJoint
+        - **HackSPi_DachsM6_LeftMotor**
+            - ZetaChariotConcept_Motor25Z
+        - **HackSPi_DachsM6_RightMotor**
+            - ZetaChariotConcept_Motor25Z
+        - HackSPi_DachsM5_ArmGearSupport
+    - HackSPi_DachsM5_Apillar
+        - HackSPi_DachsM5_ArmGear
+    - ZetaShooterConcept_ApillarBodyJoint
+    - HackSPi_DachsM5_FrontChassisJoint
+- HackSPi_DachsM5_RearChassis
+    - HackSPi_DachsM5_Caster
+    - EpsilonSpikerConcept_RearChassisJoint
+    - HackSPi_DachsM5_Cpillar
+    - HackSPi_DachsM5_Bpillar
+    - HackSPi_DachsM5_TouchSensor
+- HackSPi_DachsM5_LeftUpperApillarBpillarJoint
+- HackSPi_DachsM5_RightUpperApillarBpillarJoint
+- HackSPi_DachsM5_LeftUnderApillarBpillarJoint
+- HackSPi_DachsM5_RightUnderApillarBpillarJoint
+- HackSPi_DachsM5_AdjustableWeight
+
 ## HackSPi_DachsM5
 HackSPi dachs (ZetaShooter) ETR25ZM5
 - **HackSPi_DachsM5_FrontChassis**
@@ -16,6 +71,7 @@ HackSPi dachs (ZetaShooter) ETR25ZM5
     - **HackSPi_DachsM5_WholeMotor**
         - **HackSPi_DachsM5_LeftMotorJoint**
         - **HackSPi_DachsM5_RightMotorJoint**
+        - **HackSPi_DachsM5_LeftMotor**
             - ZetaChariotConcept_Motor25Z
         - **HackSPi_DachsM5_RightMotor**
             - ZetaChariotConcept_Motor25Z

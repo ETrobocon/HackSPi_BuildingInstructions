@@ -1,3 +1,38 @@
+0 FILE ReHackSM6.ldr
+0 Re-HackS R25Z M6
+0 Name: ReHacksM6.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ReHackSM6_RearChassis.ldr
+1 0 0 0 0 1 0 0 0 0.8 0.6 0 -0.6 0.8 ReHackSM6_FrontChassis.ldr
+0 STEP
+0
+0 FILE HackSPi_DachsM6.ldr
+0 HackSPi dachs25Z M6
+0 Name: HackSPi_DachsM6.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RearChassis.ldr
+1 0 0 0 0 1 0 0 0 0.8 0.6 0 -0.6 0.8 HackSPi_DachsM6_FrontChassis.ldr
+0 STEP
+1 0 0 -342 -56 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_FrontCamera.ldr
+1 26 -100 -282 -96 0 1 0 0 0 -1 -1 0 0 32316.dat
+1 26 100 -282 -96 0 1 0 0 0 -1 -1 0 0 32316.dat
+0 STEP
+1 26 120 -110 -80 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftUnderApillarBpillarJoint.ldr
+1 26 -120 -110 -80 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightUnderApillarBpillarJoint.ldr
+0 STEP
+1 26 140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftUpperApillarBpillarJoint.ldr
+1 26 -140 -190 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightUpperApillarBpillarJoint.ldr
+0 STEP
+1 26 60 -200 240 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_AdjustableWeight.ldr
+1 26 -60 -200 240 -1 0 0 0 1 0 0 0 -1 HackSPi_DachsM5_AdjustableWeight.ldr
+0 STEP
+0
 0 FILE HackSPi_DachsM5.ldr
 0 HackSPi dachs25Z M5
 0 Name: HackSPi_DachsM5.ldr
@@ -10003,6 +10038,213 @@
 1 322 -20 -12 0 0 0 -1 0 1 0 1 0 0 4032a.dat
 0 STEP
 1 0 -20 -20 0 0 0 -1 0 1 0 1 0 0 15535.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM6_FrontChassis.ldr
+0 Chassis Ass'y, Front, HackSPi dachs25Z M6
+0 Name: HackSPi_DachsM6_FrontChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -10 1 0 0 0 0 1 0 -1 0 HackSPi_DachsM5_FrontChassisJoint.ldr
+1 26 0 20 -10 0 0 1 -1 0 0 0 -1 0 39794.dat
+0 STEP
+1 71 100 -20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 100 20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -100 -20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+1 71 -100 20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+0 STEP
+1 71 0 40 -50 1 0 0 0 1 0 0 0 1 HackSPi_DachsM6_WholeMotor.ldr
+0 STEP
+1 322 0 -60 -130 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Apillar.ldr
+0 STEP
+1 0 0 -40 -120 1 0 0 0 0 -1 0 1 0 HackSPi_DachsM5_Body.ldr
+0 STEP
+1 0 60 -220 -130 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 0 -60 -220 -130 -1 0 0 0 1 0 0 0 -1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 26 40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+1 26 -40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM6_WholeMotor.ldr
+0 Motor Ass'y, Whole, HackSPi dachs25Z M6
+0 Name: HackSPi_DachsM6_WholeMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 -1 0 1 0 54675.dat
+1 0 0 0 50 0 1 0 0 0 -1 -1 0 0 3705.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 0 0 40 0 1 0 -1 0 0 0 0 1 3713.dat
+1 71 0 0 60 0 1 0 1 0 0 0 0 -1 3713.dat
+1 4 0 0 80 1 0 0 0 -1 0 0 0 -1 49283.dat
+0 STEP
+1 4 0 0 -50 0 0 -1 0 -1 0 -1 0 0 32062.dat
+1 19 0 0 -60 -1 0 0 0 1 0 0 0 -1 18575.dat
+1 1 -40 -80 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 40 -80 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+0 ROTSTEP END
+1 26 0 -80 -40 0 0 1 -1 0 0 0 -1 0 32316.dat
+1 26 40 60 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_LeftMotorJoint.ldr
+1 26 -40 60 0 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_RightMotorJoint.ldr
+0 STEP
+1 19 -80 60 -20 1 0 0 0 1 0 0 0 1 HackSPi_DachsM6_RightMotor.ldr
+1 19 0 60 -40 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_ArmGearSupport.ldr
+0 STEP
+1 19 80 60 -20 1 0 0 0 1 0 0 0 1 HackSPi_DachsM6_LeftMotor.ldr
+0 STEP
+1 26 0 40 20 0 0 1 1 0 0 0 1 0 32525.dat
+0 ROTSTEP 23 225 0 ABS
+1 26 0 -80 -60 0 0 1 1 0 0 0 1 0 32525.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM6_LeftMotor.ldr
+0 Motor Ass'y, Left, HackSPi dachs25Z M6
+0 Name: HackSPi_DachsM6_LeftMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaChariotConcept_Motor25Z.ldr
+1 1 20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 1 -20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 -20 -160 40 0 0 1 0 1 0 -1 0 0 55615.dat
+0 STEP
+1 1 -20 -20 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 20 -20 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 1 20 -140 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 0 -20 -140 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 ROTSTEP END
+1 14 0 -20 -40 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
+0
+0 FILE HackSPi_DachsM6_RightMotor.ldr
+0 Motor Ass'y, Right, HackSPi dachs25Z M6
+0 Name: HackSPi_DachsM6_RightMotor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026.
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 ZetaChariotConcept_Motor25Z.ldr
+1 1 20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 1 -20 -20 40 0 0 -1 0 1 0 1 0 0 6558.dat
+1 71 0 -140 40 0 -1 0 1 0 0 0 0 1 65489.dat
+0 ROTSTEP 23 225 0 ABS
+1 71 20 -160 40 0 0 -1 0 1 0 1 0 0 55615.dat
+0 STEP
+1 1 20 -20 -40 0 0 1 0 1 0 -1 0 0 6558.dat
+1 1 -20 -20 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 1 -20 -140 -40 0 -1 0 0 0 1 -1 0 0 6558.dat
+1 0 20 -140 -30 0 0 1 0 1 0 -1 0 0 2780.dat
+0 ROTSTEP END
+1 14 0 -20 -40 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
+0
+0 FILE ReHackSM6_RearChassis.ldr
+0 Chassis Ass'y, Rear, Re-HackS R25Z M6
+0 Name: ReHackSM6_RearChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 322 0 30 100 -1 0 0 0 1 0 0 0 -1 39370c01.dat
+1 1 0 30 60 -1 0 0 0 1 0 0 0 -1 6558.dat
+1 1 0 30 140 -1 0 0 0 1 0 0 0 -1 6558.dat
+0 STEP
+1 71 -20 10 100 0 -1 0 -1 0 0 0 0 -1 14720.dat
+1 71 20 10 100 0 -1 0 -1 0 0 0 0 -1 14720.dat
+0 STEP
+1 0 30 -10 60 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -30 -10 60 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 19 30 -10 140 1 0 0 0 -1 0 0 0 -1 3749.dat
+1 19 -30 -10 140 -1 0 0 0 -1 0 0 0 1 3749.dat
+0 STEP
+1 14 40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+1 14 0 -50 100 -1 0 0 0 1 0 0 0 -1 ReHackSM6_TouchSensor.ldr
+1 19 50 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 3749.dat
+0 STEP
+1 14 80 6 8 0 1 0 0.6 0 0.8 0.8 0 -0.6 32014.dat
+1 322 0 6 8 1 0 0 0 -0.6 0.8 0 -0.8 -0.6 EpsilonSpikerConcept_RearChassisJoint.ldr
+0 STEP
+1 14 -40 -9.971 140.037 0 1 0 1 0 0 0 0 -1 32271.dat
+1 19 -50 6 8 -1 0 0 0 -0.8 0.6 0 0.6 0.8 3749.dat
+0 STEP
+1 14 -80 6 8 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32014.dat
+0 STEP
+0
+0 FILE ReHackSM6_TouchSensor.ldr
+0 Sensor Ass'y, Touch, Re-HackS R25Z M6
+0 Name: ReHackSM6_TouchSensor.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 1 0 -1 0 37312.dat
+1 4 0 -70 0 0 -1 0 -1 0 0 0 0 -1 32062.dat
+1 0 30 40 20 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 30 40 -20 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -30 40 -20 -1 0 0 0 1 0 0 0 -1 2780.dat
+1 0 -30 40 20 -1 0 0 0 1 0 0 0 -1 2780.dat
+0 ROTSTEP -23 45 0 ABS
+1 15 0 -94 0 0 0 1 0 1 0 -1 0 0 3941.dat
+1 0 0 -102 0 0 0 1 0 1 0 -1 0 0 15535.dat
+0 ROTSTEP END
+0
+0 FILE ReHackSM6_FrontChassis.ldr
+0 Chassis Ass'y, Front, Re-HackS R25Z M6
+0 Name: ReHackSM6_FrontChassis.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -10 1 0 0 0 0 1 0 -1 0 HackSPi_DachsM5_FrontChassisJoint.ldr
+1 26 0 20 -10 0 0 1 -1 0 0 0 -1 0 39794.dat
+0 STEP
+1 71 100 -20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 100 20 -10 -1 0 0 0 0 1 0 1 0 32054.dat
+1 71 -100 -20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+1 71 -100 20 -10 1 0 0 0 0 1 0 -1 0 32054.dat
+0 STEP
+1 71 0 40 -50 1 0 0 0 1 0 0 0 1 HackSPi_DachsM6_WholeMotor.ldr
+0 STEP
+1 322 0 -60 -130 1 0 0 0 1 0 0 0 1 HackSPi_DachsM5_Apillar.ldr
+0 STEP
+1 0 0 -40 -120 1 0 0 0 0 -1 0 1 0 ReHackSM6_Body.ldr
+0 STEP
+1 0 60 -220 -130 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 0 -60 -220 -130 -1 0 0 0 1 0 0 0 -1 ZetaShooterConcept_ApillarBodyJoint.ldr
+1 26 40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+1 26 -40 -160 -130 -1 0 0 0 0 -1 0 -1 0 49283.dat
+0 STEP
+0
+0 FILE ReHackSM6_Body.ldr
+0 Body Ass'y, Re-HackS R25Z M6
+0 Name: ReHackSM6_Body.ldr
+0 Author: TANAHASHI, Jiro (aka jtFuruhata)
+0 Official Model, ET Robocon 2026
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 ZetaShooterConcept_Head.ldr
+1 0 -70 -50 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 -70 -30 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 70 -50 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+1 0 70 -30 -80 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
+1 0 80 -50 -120 0 -1 0 1 0 0 0 0 1 60484.dat
+1 0 -80 -50 -120 0 -1 0 1 0 0 0 0 1 60484.dat
+1 0 90 -50 -100 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 90 -50 -120 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -90 -50 -100 1 0 0 0 -1 0 0 0 -1 2780.dat
+1 0 -90 -50 -120 1 0 0 0 -1 0 0 0 -1 2780.dat
+0 STEP
+1 0 0 -50 -140 1 0 0 0 0 1 0 -1 0 HackSPi_DachsM5_Arm.ldr
+0 STEP
+1 14 100 -50 -120 0 1 0 -1 0 0 0 0 1 32523.dat
+1 14 -100 -50 -120 0 1 0 -1 0 0 0 0 1 32523.dat
 0 STEP
 0 
 0
